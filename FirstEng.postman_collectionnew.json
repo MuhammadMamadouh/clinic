@@ -1,0 +1,1936 @@
+{
+    "info": {
+        "_postman_id": "baf60309-5589-4a32-b83d-a439cc5c2cb4",
+        "name": "FirstEng",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [{
+            "name": "login",
+            "item": [{
+                    "name": "login",
+                    "request": {
+                        "method": "POST",
+                        "header": [{
+                            "key": "Accept",
+                            "type": "text",
+                            "value": "application/json"
+                        }],
+                        "body": {
+                            "mode": "formdata",
+                            "formdata": [{
+                                    "key": "name",
+                                    "value": "sys_admin",
+                                    "type": "text"
+                                },
+                                {
+                                    "key": "password",
+                                    "value": "123456",
+                                    "type": "text"
+                                }
+                            ]
+                        },
+                        "url": {
+                            "raw": "{{host}}/login",
+                            "host": [
+                                "{{host}}"
+                            ],
+                            "path": [
+                                "login"
+                            ]
+                        }
+                    },
+                    "response": []
+                },
+                {
+                    "name": "reset-password",
+                    "request": {
+                        "auth": {
+                            "type": "bearer",
+                            "bearer": [{
+                                "key": "token",
+                                "value": "KScb74jDlOexpu5TMHkk8c6zcREov97Dps06ap6F",
+                                "type": "string"
+                            }]
+                        },
+                        "method": "PUT",
+                        "header": [{
+                            "key": "Accept",
+                            "value": "application/json",
+                            "type": "text"
+                        }],
+                        "body": {
+                            "mode": "urlencoded",
+                            "urlencoded": [{
+                                    "key": "old_password",
+                                    "value": "123456",
+                                    "type": "text"
+                                },
+                                {
+                                    "key": "password",
+                                    "value": "1234567",
+                                    "type": "text"
+                                },
+                                {
+                                    "key": "password_confirmation",
+                                    "value": "1234567",
+                                    "type": "text"
+                                }
+                            ]
+                        },
+                        "url": {
+                            "raw": "http://127.0.0.1:8000/api/reset-password",
+                            "protocol": "http",
+                            "host": [
+                                "127",
+                                "0",
+                                "0",
+                                "1"
+                            ],
+                            "port": "8000",
+                            "path": [
+                                "api",
+                                "reset-password"
+                            ]
+                        }
+                    },
+                    "response": []
+                },
+                {
+                    "name": "forgot password by username",
+                    "request": {
+                        "method": "POST",
+                        "header": [],
+                        "body": {
+                            "mode": "formdata",
+                            "formdata": [{
+                                "key": "name",
+                                "value": "sys_admin",
+                                "type": "text"
+                            }]
+                        },
+                        "url": {
+                            "raw": "http://127.0.0.1:8000/api/forget-password",
+                            "protocol": "http",
+                            "host": [
+                                "127",
+                                "0",
+                                "0",
+                                "1"
+                            ],
+                            "port": "8000",
+                            "path": [
+                                "api",
+                                "forget-password"
+                            ]
+                        }
+                    },
+                    "response": []
+                },
+                {
+                    "name": "submit forgotten password by token",
+                    "request": {
+                        "method": "POST",
+                        "header": [],
+                        "body": {
+                            "mode": "formdata",
+                            "formdata": [{
+                                    "key": "token",
+                                    "value": "swSiEhP9GnTEzbMFTvMBWqafawdcMlAh5sin0yw0mUfPMsgwKHUomEv51GS92x5q",
+                                    "type": "text"
+                                },
+                                {
+                                    "key": "password",
+                                    "value": "1234567",
+                                    "type": "text"
+                                },
+                                {
+                                    "key": "password_confirmation",
+                                    "value": "1234567",
+                                    "type": "text"
+                                }
+                            ]
+                        },
+                        "url": {
+                            "raw": "http://127.0.0.1:8000/api/reset-forgetten-password",
+                            "protocol": "http",
+                            "host": [
+                                "127",
+                                "0",
+                                "0",
+                                "1"
+                            ],
+                            "port": "8000",
+                            "path": [
+                                "api",
+                                "reset-forgetten-password"
+                            ]
+                        }
+                    },
+                    "response": []
+                }
+            ]
+        },
+        {
+            "name": "General",
+            "item": [{
+                    "name": "RelativeDegree",
+                    "request": {
+                        "method": "GET",
+                        "header": [{
+                                "key": "Accept",
+                                "type": "text",
+                                "value": "application/json"
+                            },
+                            {
+                                "key": "Authorization",
+                                "type": "text",
+                                "value": "Bearer {{token}}"
+                            }
+                        ],
+                        "url": {
+                            "raw": "{{host}}/general/relative-degree",
+                            "host": [
+                                "{{host}}"
+                            ],
+                            "path": [
+                                "general",
+                                "relative-degree"
+                            ]
+                        }
+                    },
+                    "response": []
+                },
+                {
+                    "name": "Governorates",
+                    "request": {
+                        "method": "GET",
+                        "header": [{
+                                "key": "Accept",
+                                "value": "application/json",
+                                "type": "text"
+                            },
+                            {
+                                "key": "Authorization",
+                                "value": "Bearer {{token}}",
+                                "type": "text",
+                                "disabled": true
+                            }
+                        ],
+                        "url": {
+                            "raw": "{{host}}/general/governorates",
+                            "host": [
+                                "{{host}}"
+                            ],
+                            "path": [
+                                "general",
+                                "governorates"
+                            ]
+                        }
+                    },
+                    "response": []
+                },
+                {
+                    "name": "MaritalStatus",
+                    "request": {
+                        "method": "GET",
+                        "header": [{
+                                "key": "Accept",
+                                "value": "application/json",
+                                "type": "text"
+                            },
+                            {
+                                "key": "Authorization",
+                                "value": "Bearer {{token}}",
+                                "type": "text"
+                            }
+                        ],
+                        "url": {
+                            "raw": "{{host}}/general/marital-status",
+                            "host": [
+                                "{{host}}"
+                            ],
+                            "path": [
+                                "general",
+                                "marital-status"
+                            ]
+                        }
+                    },
+                    "response": []
+                },
+                {
+                    "name": "UniversityType",
+                    "request": {
+                        "method": "GET",
+                        "header": [{
+                                "key": "Accept",
+                                "value": "application/json",
+                                "type": "text"
+                            },
+                            {
+                                "key": "Authorization",
+                                "value": "Bearer {{token}}",
+                                "type": "text"
+                            }
+                        ],
+                        "url": {
+                            "raw": "{{host}}/general/university-type",
+                            "host": [
+                                "{{host}}"
+                            ],
+                            "path": [
+                                "general",
+                                "university-type"
+                            ]
+                        }
+                    },
+                    "response": []
+                },
+                {
+                    "name": "EducationalDegree",
+                    "request": {
+                        "method": "GET",
+                        "header": [{
+                                "key": "Accept",
+                                "value": "application/json",
+                                "type": "text"
+                            },
+                            {
+                                "key": "Authorization",
+                                "value": "Bearer {{token}}",
+                                "type": "text",
+                                "disabled": true
+                            }
+                        ],
+                        "url": {
+                            "raw": "{{host}}/general/educational-degree",
+                            "host": [
+                                "{{host}}"
+                            ],
+                            "path": [
+                                "general",
+                                "educational-degree"
+                            ]
+                        }
+                    },
+                    "response": []
+                }
+            ]
+        },
+        {
+            "name": "User",
+            "item": [{
+                    "name": "index",
+                    "request": {
+                        "auth": {
+                            "type": "noauth"
+                        },
+                        "method": "GET",
+                        "header": [{
+                                "key": "Accept",
+                                "value": "application/json",
+                                "type": "text"
+                            },
+                            {
+                                "key": "Authorization",
+                                "value": "Bearer {{token}}",
+                                "type": "text"
+                            }
+                        ],
+                        "url": {
+                            "raw": "{{host}}/master-data/user?name=حسن&active=1&block=1&company=3",
+                            "host": [
+                                "{{host}}"
+                            ],
+                            "path": [
+                                "master-data",
+                                "user"
+                            ],
+                            "query": [{
+                                    "key": "name",
+                                    "value": "حسن",
+                                    "description": "search in (name/fullname_ar/fullname_en)"
+                                },
+                                {
+                                    "key": "active",
+                                    "value": "1",
+                                    "description": "1==active/0==notactive"
+                                },
+                                {
+                                    "key": "block",
+                                    "value": "1",
+                                    "description": "1==block/0==unblock"
+                                },
+                                {
+                                    "key": "first_login",
+                                    "value": "1",
+                                    "description": "1==first_login/0==NOT",
+                                    "disabled": true
+                                },
+                                {
+                                    "key": "email",
+                                    "value": "tarekbnnnn@test.com",
+                                    "disabled": true
+                                },
+                                {
+                                    "key": "company",
+                                    "value": "3"
+                                },
+                                {
+                                    "key": "page",
+                                    "value": "1",
+                                    "disabled": true
+                                },
+                                {
+                                    "key": "role",
+                                    "value": "2",
+                                    "disabled": true
+                                }
+                            ]
+                        }
+                    },
+                    "response": []
+                },
+                {
+                    "name": "create",
+                    "request": {
+                        "auth": {
+                            "type": "noauth"
+                        },
+                        "method": "POST",
+                        "header": [{
+                                "key": "Accept",
+                                "value": "application/json",
+                                "type": "text"
+                            },
+                            {
+                                "key": "Authorization",
+                                "value": "Bearer {{token}}",
+                                "type": "text"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\r\n\"name\":\"t.hassabnnbnqqn\",\r\n\"full_name_ar\":\"طارق حسن\",\r\n\"full_name_en\":\"tarek\",\r\n\"email\":\"tarekbnnbnqn@test.com\",\r\n\"is_active\":true,\r\n\"is_lock\":false,\r\n\"role\":1,\r\n\"companies\":[1,2]\r\n}",
+                            "options": {
+                                "raw": {
+                                    "language": "json"
+                                }
+                            }
+                        },
+                        "url": {
+                            "raw": "{{host}}/master-data/user",
+                            "host": [
+                                "{{host}}"
+                            ],
+                            "path": [
+                                "master-data",
+                                "user"
+                            ]
+                        }
+                    },
+                    "response": []
+                },
+                {
+                    "name": "update",
+                    "request": {
+                        "auth": {
+                            "type": "noauth"
+                        },
+                        "method": "PUT",
+                        "header": [{
+                                "key": "Accept",
+                                "value": "application/json",
+                                "type": "text"
+                            },
+                            {
+                                "key": "Authorization",
+                                "value": "Bearer {{token}}",
+                                "type": "text"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\r\n\"name\":\"t.hassabnnbnqqn\",\r\n\"full_name_ar\":\"طارق حسشششششن\",\r\n\"full_name_en\":\"tareksssss\",\r\n\"email\":\"tarekbnnbnqn@test.com\",\r\n\"is_active\":true,\r\n\"is_lock\":false,\r\n\"role\":1,\r\n\"companies\":[1,2]\r\n}",
+                            "options": {
+                                "raw": {
+                                    "language": "json"
+                                }
+                            }
+                        },
+                        "url": {
+                            "raw": "{{host}}/master-data/user/9",
+                            "host": [
+                                "{{host}}"
+                            ],
+                            "path": [
+                                "master-data",
+                                "user",
+                                "9"
+                            ]
+                        }
+                    },
+                    "response": []
+                },
+                {
+                    "name": "Show",
+                    "request": {
+                        "method": "GET",
+                        "header": [{
+                                "key": "Accept",
+                                "value": "application/json",
+                                "type": "text"
+                            },
+                            {
+                                "key": "Authorization",
+                                "value": "Bearer {{token}}",
+                                "type": "text"
+                            }
+                        ],
+                        "url": {
+                            "raw": "{{host}}/master-data/user/2",
+                            "host": [
+                                "{{host}}"
+                            ],
+                            "path": [
+                                "master-data",
+                                "user",
+                                "2"
+                            ]
+                        }
+                    },
+                    "response": []
+                },
+                {
+                    "name": "generate-password",
+                    "request": {
+                        "method": "GET",
+                        "header": [{
+                                "key": "Accept",
+                                "value": "application/json",
+                                "type": "text"
+                            },
+                            {
+                                "key": "Authorization",
+                                "value": "Bearer {{token}}",
+                                "type": "text"
+                            }
+                        ],
+                        "url": {
+                            "raw": "{{host}}/general/generate-password/1",
+                            "host": [
+                                "{{host}}"
+                            ],
+                            "path": [
+                                "general",
+                                "generate-password",
+                                "1"
+                            ]
+                        }
+                    },
+                    "response": []
+                }
+            ]
+        },
+        {
+            "name": "Role",
+            "item": [{
+                    "name": "roles",
+                    "request": {
+                        "method": "GET",
+                        "header": [{
+                                "key": "Accept",
+                                "value": "application/json",
+                                "type": "text"
+                            },
+                            {
+                                "key": "Authorization",
+                                "value": "Bearer {{token}}",
+                                "type": "text"
+                            }
+                        ],
+                        "url": {
+                            "raw": "{{host}}/master-data/roles",
+                            "host": [
+                                "{{host}}"
+                            ],
+                            "path": [
+                                "master-data",
+                                "roles"
+                            ]
+                        }
+                    },
+                    "response": []
+                },
+                {
+                    "name": "Show Role",
+                    "request": {
+                        "method": "GET",
+                        "header": [{
+                                "key": "Accept",
+                                "value": "application/json",
+                                "type": "text"
+                            },
+                            {
+                                "key": "Authorization",
+                                "value": "Bearer {{token}}",
+                                "type": "text"
+                            }
+                        ],
+                        "url": {
+                            "raw": "{{host}}/master-data/roles/2",
+                            "host": [
+                                "{{host}}"
+                            ],
+                            "path": [
+                                "master-data",
+                                "roles",
+                                "2"
+                            ]
+                        }
+                    },
+                    "response": []
+                },
+                {
+                    "name": "Store Roles",
+                    "request": {
+                        "method": "POST",
+                        "header": [{
+                                "key": "Accept",
+                                "value": "application/json",
+                                "type": "text"
+                            },
+                            {
+                                "key": "Authorization",
+                                "value": "Bearer {{token}}",
+                                "type": "text"
+                            }
+                        ],
+                        "body": {
+                            "mode": "urlencoded",
+                            "urlencoded": [{
+                                    "key": "name",
+                                    "value": "role2",
+                                    "description": " (unique)",
+                                    "type": "text"
+                                },
+                                {
+                                    "key": "permissions[]",
+                                    "value": "10",
+                                    "type": "text"
+                                },
+                                {
+                                    "key": "permissions[]",
+                                    "value": "9",
+                                    "type": "text"
+                                },
+                                {
+                                    "key": "permissions[]",
+                                    "value": "11",
+                                    "type": "text"
+                                }
+                            ]
+                        },
+                        "url": {
+                            "raw": "{{host}}/master-data/roles",
+                            "host": [
+                                "{{host}}"
+                            ],
+                            "path": [
+                                "master-data",
+                                "roles"
+                            ]
+                        }
+                    },
+                    "response": []
+                },
+                {
+                    "name": "Update Role",
+                    "request": {
+                        "method": "PUT",
+                        "header": [{
+                                "key": "Accept",
+                                "value": "application/json",
+                                "type": "text"
+                            },
+                            {
+                                "key": "Authorization",
+                                "value": "Bearer {{token}}",
+                                "type": "text"
+                            }
+                        ],
+                        "body": {
+                            "mode": "urlencoded",
+                            "urlencoded": [{
+                                    "key": "name",
+                                    "value": "test2",
+                                    "description": "role Id",
+                                    "type": "text"
+                                },
+                                {
+                                    "key": "permissions[]",
+                                    "value": "11",
+                                    "type": "text"
+                                },
+                                {
+                                    "key": "permissions[]",
+                                    "value": "",
+                                    "type": "text",
+                                    "disabled": true
+                                },
+                                {
+                                    "key": "permissions[]",
+                                    "value": "3",
+                                    "type": "text"
+                                }
+                            ]
+                        },
+                        "url": {
+                            "raw": "{{host}}/master-data/roles/2",
+                            "host": [
+                                "{{host}}"
+                            ],
+                            "path": [
+                                "master-data",
+                                "roles",
+                                "2"
+                            ]
+                        }
+                    },
+                    "response": []
+                }
+            ]
+        },
+        {
+            "name": "District",
+            "item": [{
+                    "name": "district",
+                    "request": {
+                        "auth": {
+                            "type": "bearer",
+                            "bearer": [{
+                                "key": "token",
+                                "value": "jV5qtm90BusuNXYkkC1RqX1kkWWsm6rfpYs84V5A",
+                                "type": "string"
+                            }]
+                        },
+                        "method": "GET",
+                        "header": [{
+                                "key": "Accept",
+                                "value": "application/json",
+                                "type": "text"
+                            },
+                            {
+                                "key": "Authorization",
+                                "value": "Bearer {{token}}",
+                                "type": "text",
+                                "disabled": true
+                            }
+                        ],
+                        "url": {
+                            "raw": "http://127.0.0.1:8000/api/district",
+                            "protocol": "http",
+                            "host": [
+                                "127",
+                                "0",
+                                "0",
+                                "1"
+                            ],
+                            "port": "8000",
+                            "path": [
+                                "api",
+                                "district"
+                            ]
+                        }
+                    },
+                    "response": []
+                },
+                {
+                    "name": "district",
+                    "request": {
+                        "auth": {
+                            "type": "bearer",
+                            "bearer": [{
+                                "key": "token",
+                                "value": "jV5qtm90BusuNXYkkC1RqX1kkWWsm6rfpYs84V5A",
+                                "type": "string"
+                            }]
+                        },
+                        "method": "GET",
+                        "header": [{
+                                "key": "Accept",
+                                "value": "application/json",
+                                "type": "text"
+                            },
+                            {
+                                "key": "Authorization",
+                                "value": "Bearer {{token}}",
+                                "type": "text"
+                            }
+                        ],
+                        "url": {
+                            "raw": "http://127.0.0.1:8000/api/district/3",
+                            "protocol": "http",
+                            "host": [
+                                "127",
+                                "0",
+                                "0",
+                                "1"
+                            ],
+                            "port": "8000",
+                            "path": [
+                                "api",
+                                "district",
+                                "3"
+                            ]
+                        }
+                    },
+                    "response": []
+                },
+                {
+                    "name": "Store district",
+                    "request": {
+                        "auth": {
+                            "type": "bearer",
+                            "bearer": [{
+                                "key": "token",
+                                "value": "jV5qtm90BusuNXYkkC1RqX1kkWWsm6rfpYs84V5A",
+                                "type": "string"
+                            }]
+                        },
+                        "method": "POST",
+                        "header": [{
+                                "key": "Accept",
+                                "value": "application/json",
+                                "type": "text"
+                            },
+                            {
+                                "key": "Authorization",
+                                "value": "Bearer {{token}}",
+                                "type": "text",
+                                "disabled": true
+                            }
+                        ],
+                        "body": {
+                            "mode": "formdata",
+                            "formdata": [{
+                                    "key": "gov_id",
+                                    "value": "1",
+                                    "type": "text"
+                                },
+                                {
+                                    "key": "name_ar",
+                                    "value": "حي الدقي",
+                                    "type": "text"
+                                },
+                                {
+                                    "key": "name_en",
+                                    "value": "Al-douky",
+                                    "type": "text"
+                                }
+                            ]
+                        },
+                        "url": {
+                            "raw": "http://127.0.0.1:8000/api/district",
+                            "protocol": "http",
+                            "host": [
+                                "127",
+                                "0",
+                                "0",
+                                "1"
+                            ],
+                            "port": "8000",
+                            "path": [
+                                "api",
+                                "district"
+                            ]
+                        }
+                    },
+                    "response": []
+                },
+                {
+                    "name": "Update district",
+                    "request": {
+                        "auth": {
+                            "type": "bearer",
+                            "bearer": [{
+                                "key": "token",
+                                "value": "jV5qtm90BusuNXYkkC1RqX1kkWWsm6rfpYs84V5A",
+                                "type": "string"
+                            }]
+                        },
+                        "method": "PUT",
+                        "header": [{
+                                "key": "Accept",
+                                "value": "application/json",
+                                "type": "text"
+                            },
+                            {
+                                "key": "Authorization",
+                                "value": "Bearer {{token}}",
+                                "type": "text",
+                                "disabled": true
+                            }
+                        ],
+                        "body": {
+                            "mode": "urlencoded",
+                            "urlencoded": [{
+                                    "key": "gov_id",
+                                    "value": "1",
+                                    "type": "text"
+                                },
+                                {
+                                    "key": "name_ar",
+                                    "value": "الريحان",
+                                    "type": "text"
+                                },
+                                {
+                                    "key": "name_en",
+                                    "value": "rehan",
+                                    "type": "text"
+                                }
+                            ]
+                        },
+                        "url": {
+                            "raw": "http://127.0.0.1:8000/api/district/3",
+                            "protocol": "http",
+                            "host": [
+                                "127",
+                                "0",
+                                "0",
+                                "1"
+                            ],
+                            "port": "8000",
+                            "path": [
+                                "api",
+                                "district",
+                                "3"
+                            ]
+                        }
+                    },
+                    "response": []
+                }
+            ]
+        },
+        {
+            "name": "officeDistrict",
+            "item": [{
+                    "name": "index",
+                    "request": {
+                        "auth": {
+                            "type": "bearer",
+                            "bearer": [{
+                                "key": "token",
+                                "value": "jV5qtm90BusuNXYkkC1RqX1kkWWsm6rfpYs84V5A",
+                                "type": "string"
+                            }]
+                        },
+                        "method": "GET",
+                        "header": [{
+                                "key": "Accept",
+                                "value": "application/json",
+                                "type": "text"
+                            },
+                            {
+                                "key": "Authorization",
+                                "value": "Bearer {{token}}",
+                                "type": "text",
+                                "disabled": true
+                            }
+                        ],
+                        "url": {
+                            "raw": "http://127.0.0.1:8000/api/district",
+                            "protocol": "http",
+                            "host": [
+                                "127",
+                                "0",
+                                "0",
+                                "1"
+                            ],
+                            "port": "8000",
+                            "path": [
+                                "api",
+                                "district"
+                            ]
+                        }
+                    },
+                    "response": []
+                },
+                {
+                    "name": "show",
+                    "request": {
+                        "method": "GET",
+                        "header": [{
+                                "key": "Accept",
+                                "value": "application/json",
+                                "type": "text"
+                            },
+                            {
+                                "key": "Authorization",
+                                "value": "Bearer {{token}}",
+                                "type": "text"
+                            }
+                        ],
+                        "url": {
+                            "raw": "{{host}}/master-data/roles/2",
+                            "host": [
+                                "{{host}}"
+                            ],
+                            "path": [
+                                "master-data",
+                                "roles",
+                                "2"
+                            ]
+                        }
+                    },
+                    "response": []
+                },
+                {
+                    "name": "Store district",
+                    "request": {
+                        "auth": {
+                            "type": "bearer",
+                            "bearer": [{
+                                "key": "token",
+                                "value": "jV5qtm90BusuNXYkkC1RqX1kkWWsm6rfpYs84V5A",
+                                "type": "string"
+                            }]
+                        },
+                        "method": "POST",
+                        "header": [{
+                                "key": "Accept",
+                                "value": "application/json",
+                                "type": "text"
+                            },
+                            {
+                                "key": "Authorization",
+                                "value": "Bearer {{token}}",
+                                "type": "text",
+                                "disabled": true
+                            }
+                        ],
+                        "body": {
+                            "mode": "formdata",
+                            "formdata": [{
+                                    "key": "gov_id",
+                                    "value": "1",
+                                    "type": "text"
+                                },
+                                {
+                                    "key": "name_ar",
+                                    "value": "حي الدقي",
+                                    "type": "text"
+                                },
+                                {
+                                    "key": "name_en",
+                                    "value": "Al-douky",
+                                    "type": "text"
+                                }
+                            ]
+                        },
+                        "url": {
+                            "raw": "http://127.0.0.1:8000/api/district",
+                            "protocol": "http",
+                            "host": [
+                                "127",
+                                "0",
+                                "0",
+                                "1"
+                            ],
+                            "port": "8000",
+                            "path": [
+                                "api",
+                                "district"
+                            ]
+                        }
+                    },
+                    "response": []
+                },
+                {
+                    "name": "Update district",
+                    "request": {
+                        "auth": {
+                            "type": "bearer",
+                            "bearer": [{
+                                "key": "token",
+                                "value": "jV5qtm90BusuNXYkkC1RqX1kkWWsm6rfpYs84V5A",
+                                "type": "string"
+                            }]
+                        },
+                        "method": "PUT",
+                        "header": [{
+                                "key": "Accept",
+                                "value": "application/json",
+                                "type": "text"
+                            },
+                            {
+                                "key": "Authorization",
+                                "value": "Bearer {{token}}",
+                                "type": "text",
+                                "disabled": true
+                            }
+                        ],
+                        "body": {
+                            "mode": "urlencoded",
+                            "urlencoded": [{
+                                    "key": "gov_id",
+                                    "value": "1",
+                                    "type": "text"
+                                },
+                                {
+                                    "key": "name_ar",
+                                    "value": "الريحان",
+                                    "type": "text"
+                                },
+                                {
+                                    "key": "name_en",
+                                    "value": "rehan",
+                                    "type": "text"
+                                }
+                            ]
+                        },
+                        "url": {
+                            "raw": "http://127.0.0.1:8000/api/district/3",
+                            "protocol": "http",
+                            "host": [
+                                "127",
+                                "0",
+                                "0",
+                                "1"
+                            ],
+                            "port": "8000",
+                            "path": [
+                                "api",
+                                "district",
+                                "3"
+                            ]
+                        }
+                    },
+                    "response": []
+                },
+                {
+                    "name": "University",
+                    "item": [{
+                            "name": "index",
+                            "request": {
+                                "auth": {
+                                    "type": "bearer",
+                                    "bearer": [{
+                                        "key": "token",
+                                        "value": "6|Yu7QWWi7miFBoPLmMuZYaEmWDww28KG9egjq6pcK",
+                                        "type": "string"
+                                    }]
+                                },
+                                "method": "GET",
+                                "header": [{
+                                    "key": "Authorization",
+                                    "value": "Bearer {{token}}",
+                                    "type": "text"
+                                }],
+                                "url": {
+                                    "raw": "{{host}}/master-data/universities",
+                                    "host": [
+                                        "{{host}}"
+                                    ],
+                                    "path": [
+                                        "master-data",
+                                        "universities"
+                                    ]
+                                }
+                            },
+                            "response": []
+                        },
+                        {
+                            "name": "show",
+                            "request": {
+                                "auth": {
+                                    "type": "bearer",
+                                    "bearer": [{
+                                        "key": "token",
+                                        "value": "6|Yu7QWWi7miFBoPLmMuZYaEmWDww28KG9egjq6pcK",
+                                        "type": "string"
+                                    }]
+                                },
+                                "method": "GET",
+                                "header": [],
+                                "url": {
+                                    "raw": "{{host}}/master-data/universities/:university",
+                                    "host": [
+                                        "{{host}}"
+                                    ],
+                                    "path": [
+                                        "master-data",
+                                        "universities",
+                                        ":university"
+                                    ],
+                                    "variable": [{
+                                        "key": "university",
+                                        "value": "1"
+                                    }]
+                                }
+                            },
+                            "response": []
+                        },
+                        {
+                            "name": "Update",
+                            "protocolProfileBehavior": {
+                                "disabledSystemHeaders": {}
+                            },
+                            "request": {
+                                "auth": {
+                                    "type": "bearer",
+                                    "bearer": [{
+                                        "key": "token",
+                                        "value": "6|Yu7QWWi7miFBoPLmMuZYaEmWDww28KG9egjq6pcK",
+                                        "type": "string"
+                                    }]
+                                },
+                                "method": "PUT",
+                                "header": [{
+                                        "warning": "This is a duplicate header and will be overridden by the Authorization header generated by Postman.",
+                                        "key": "Authorization",
+                                        "value": "Bearer {{token}}",
+                                        "type": "text"
+                                    },
+                                    {
+                                        "key": "Accept",
+                                        "value": "application/json",
+                                        "type": "text"
+                                    }
+                                ],
+                                "body": {
+                                    "mode": "formdata",
+                                    "formdata": [{
+                                            "key": "name_ar",
+                                            "value": "",
+                                            "type": "text"
+                                        },
+                                        {
+                                            "key": "name_en",
+                                            "value": "",
+                                            "type": "text"
+                                        },
+                                        {
+                                            "key": "university_type_id",
+                                            "value": "",
+                                            "type": "text"
+                                        },
+                                        {
+                                            "key": "country_id",
+                                            "value": "",
+                                            "type": "text"
+                                        },
+                                        {
+                                            "key": "gov_id",
+                                            "value": "",
+                                            "type": "text"
+                                        }
+                                    ]
+                                },
+                                "url": {
+                                    "raw": "{{host}}/master-data/universities/:university",
+                                    "host": [
+                                        "{{host}}"
+                                    ],
+                                    "path": [
+                                        "master-data",
+                                        "universities",
+                                        ":university"
+                                    ],
+                                    "variable": [{
+                                        "key": "university",
+                                        "value": "1"
+                                    }]
+                                }
+                            },
+                            "response": []
+                        },
+                        {
+                            "name": "store",
+                            "protocolProfileBehavior": {
+                                "disabledSystemHeaders": {}
+                            },
+                            "request": {
+                                "auth": {
+                                    "type": "bearer",
+                                    "bearer": [{
+                                        "key": "token",
+                                        "value": "6|Yu7QWWi7miFBoPLmMuZYaEmWDww28KG9egjq6pcK",
+                                        "type": "string"
+                                    }]
+                                },
+                                "method": "POST",
+                                "header": [{
+                                        "warning": "This is a duplicate header and will be overridden by the Authorization header generated by Postman.",
+                                        "key": "Authorization",
+                                        "value": "Bearer {{token}}",
+                                        "type": "text"
+                                    },
+                                    {
+                                        "key": "Accept",
+                                        "value": "application/json",
+                                        "type": "text"
+                                    }
+                                ],
+                                "body": {
+                                    "mode": "formdata",
+                                    "formdata": [{
+                                            "key": "name_ar",
+                                            "value": "",
+                                            "type": "text"
+                                        },
+                                        {
+                                            "key": "name_en",
+                                            "value": "",
+                                            "type": "text"
+                                        },
+                                        {
+                                            "key": "university_type_id",
+                                            "value": "",
+                                            "type": "text"
+                                        },
+                                        {
+                                            "key": "country_id",
+                                            "value": "",
+                                            "type": "text"
+                                        },
+                                        {
+                                            "key": "gov_id",
+                                            "value": "",
+                                            "type": "text"
+                                        }
+                                    ]
+                                },
+                                "url": {
+                                    "raw": "{{host}}/master-data/universities",
+                                    "host": [
+                                        "{{host}}"
+                                    ],
+                                    "path": [
+                                        "master-data",
+                                        "universities"
+                                    ]
+                                }
+                            },
+                            "response": []
+                        }
+                    ],
+                    "auth": {
+                        "type": "bearer",
+                        "bearer": [{
+                            "key": "token",
+                            "value": "5|0eNM7rxoZCjr2ySVnA6Lejl17CmXsuGBakuHW6np",
+                            "type": "string"
+                        }]
+                    },
+                    "event": [{
+                            "listen": "prerequest",
+                            "script": {
+                                "type": "text/javascript",
+                                "exec": [
+                                    ""
+                                ]
+                            }
+                        },
+                        {
+                            "listen": "test",
+                            "script": {
+                                "type": "text/javascript",
+                                "exec": [
+                                    ""
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Faculties",
+                    "item": [{
+                            "name": "index",
+                            "request": {
+                                "auth": {
+                                    "type": "bearer",
+                                    "bearer": [{
+                                        "key": "token",
+                                        "value": "6|Yu7QWWi7miFBoPLmMuZYaEmWDww28KG9egjq6pcK",
+                                        "type": "string"
+                                    }]
+                                },
+                                "method": "GET",
+                                "header": [{
+                                    "warning": "This is a duplicate header and will be overridden by the Authorization header generated by Postman.",
+                                    "key": "Authorization",
+                                    "value": "Bearer {{token}}",
+                                    "type": "text"
+                                }],
+                                "url": {
+                                    "raw": "{{host}}/master-data/faculties",
+                                    "host": [
+                                        "{{host}}"
+                                    ],
+                                    "path": [
+                                        "master-data",
+                                        "faculties"
+                                    ]
+                                }
+                            },
+                            "response": []
+                        },
+                        {
+                            "name": "show",
+                            "request": {
+                                "auth": {
+                                    "type": "bearer",
+                                    "bearer": [{
+                                        "key": "token",
+                                        "value": "6|Yu7QWWi7miFBoPLmMuZYaEmWDww28KG9egjq6pcK",
+                                        "type": "string"
+                                    }]
+                                },
+                                "method": "GET",
+                                "header": [],
+                                "url": {
+                                    "raw": "{{host}}/master-data/faculties/:faculty",
+                                    "host": [
+                                        "{{host}}"
+                                    ],
+                                    "path": [
+                                        "master-data",
+                                        "faculties",
+                                        ":faculty"
+                                    ],
+                                    "variable": [{
+                                        "key": "faculty",
+                                        "value": "12"
+                                    }]
+                                }
+                            },
+                            "response": []
+                        },
+                        {
+                            "name": "Update",
+                            "protocolProfileBehavior": {
+                                "disabledSystemHeaders": {}
+                            },
+                            "request": {
+                                "auth": {
+                                    "type": "bearer",
+                                    "bearer": [{
+                                        "key": "token",
+                                        "value": "6|Yu7QWWi7miFBoPLmMuZYaEmWDww28KG9egjq6pcK",
+                                        "type": "string"
+                                    }]
+                                },
+                                "method": "PUT",
+                                "header": [{
+                                        "warning": "This is a duplicate header and will be overridden by the Authorization header generated by Postman.",
+                                        "key": "Authorization",
+                                        "value": "Bearer {{token}}",
+                                        "type": "text"
+                                    },
+                                    {
+                                        "key": "Accept",
+                                        "value": "application/json",
+                                        "type": "text"
+                                    }
+                                ],
+                                "body": {
+                                    "mode": "urlencoded",
+                                    "urlencoded": [{
+                                            "key": "name_ar",
+                                            "value": "الأزهر الشريف",
+                                            "type": "text"
+                                        },
+                                        {
+                                            "key": "name_en",
+                                            "value": "Azhar",
+                                            "type": "text"
+                                        },
+                                        {
+                                            "key": "university_ids[]",
+                                            "value": "3",
+                                            "type": "text"
+                                        }
+                                    ]
+                                },
+                                "url": {
+                                    "raw": "{{host}}/master-data/faculties/:faculty",
+                                    "host": [
+                                        "{{host}}"
+                                    ],
+                                    "path": [
+                                        "master-data",
+                                        "faculties",
+                                        ":faculty"
+                                    ],
+                                    "variable": [{
+                                        "key": "faculty",
+                                        "value": "2"
+                                    }]
+                                }
+                            },
+                            "response": []
+                        },
+                        {
+                            "name": "store",
+                            "protocolProfileBehavior": {
+                                "disabledSystemHeaders": {}
+                            },
+                            "request": {
+                                "auth": {
+                                    "type": "bearer",
+                                    "bearer": [{
+                                        "key": "token",
+                                        "value": "6|Yu7QWWi7miFBoPLmMuZYaEmWDww28KG9egjq6pcK",
+                                        "type": "string"
+                                    }]
+                                },
+                                "method": "POST",
+                                "header": [{
+                                        "warning": "This is a duplicate header and will be overridden by the Authorization header generated by Postman.",
+                                        "key": "Authorization",
+                                        "value": "Bearer {{token}}",
+                                        "type": "text"
+                                    },
+                                    {
+                                        "key": "Accept",
+                                        "value": "application/json",
+                                        "type": "text"
+                                    }
+                                ],
+                                "body": {
+                                    "mode": "formdata",
+                                    "formdata": [{
+                                            "key": "name_ar",
+                                            "value": "طب",
+                                            "type": "text"
+                                        },
+                                        {
+                                            "key": "name_en",
+                                            "value": "tb",
+                                            "type": "text"
+                                        },
+                                        {
+                                            "key": "university_ids[]",
+                                            "value": "1",
+                                            "type": "text"
+                                        },
+                                        {
+                                            "key": "university_ids[]",
+                                            "value": "3",
+                                            "type": "text"
+                                        }
+                                    ]
+                                },
+                                "url": {
+                                    "raw": "{{host}}/master-data/faculties",
+                                    "host": [
+                                        "{{host}}"
+                                    ],
+                                    "path": [
+                                        "master-data",
+                                        "faculties"
+                                    ]
+                                }
+                            },
+                            "response": []
+                        }
+                    ],
+                    "auth": {
+                        "type": "bearer",
+                        "bearer": [{
+                            "key": "token",
+                            "value": "5|0eNM7rxoZCjr2ySVnA6Lejl17CmXsuGBakuHW6np",
+                            "type": "string"
+                        }]
+                    },
+                    "event": [{
+                            "listen": "prerequest",
+                            "script": {
+                                "type": "text/javascript",
+                                "exec": [
+                                    ""
+                                ]
+                            }
+                        },
+                        {
+                            "listen": "test",
+                            "script": {
+                                "type": "text/javascript",
+                                "exec": [
+                                    ""
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Professions",
+                    "item": [{
+                            "name": "index",
+                            "request": {
+                                "auth": {
+                                    "type": "bearer",
+                                    "bearer": [{
+                                        "key": "token",
+                                        "value": "6|Yu7QWWi7miFBoPLmMuZYaEmWDww28KG9egjq6pcK",
+                                        "type": "string"
+                                    }]
+                                },
+                                "method": "GET",
+                                "header": [],
+                                "url": {
+                                    "raw": "{{host}}/master-data/professions",
+                                    "host": [
+                                        "{{host}}"
+                                    ],
+                                    "path": [
+                                        "master-data",
+                                        "professions"
+                                    ]
+                                }
+                            },
+                            "response": []
+                        },
+                        {
+                            "name": "show",
+                            "request": {
+                                "method": "GET",
+                                "header": []
+                            },
+                            "response": []
+                        },
+                        {
+                            "name": "store",
+                            "protocolProfileBehavior": {
+                                "disabledSystemHeaders": {}
+                            },
+                            "request": {
+                                "auth": {
+                                    "type": "bearer",
+                                    "bearer": [{
+                                        "key": "token",
+                                        "value": "6|Yu7QWWi7miFBoPLmMuZYaEmWDww28KG9egjq6pcK",
+                                        "type": "string"
+                                    }]
+                                },
+                                "method": "POST",
+                                "header": [{
+                                        "warning": "This is a duplicate header and will be overridden by the Authorization header generated by Postman.",
+                                        "key": "Authorization",
+                                        "value": "Bearer {{token}}",
+                                        "type": "text"
+                                    },
+                                    {
+                                        "key": "Accept",
+                                        "value": "application/json",
+                                        "type": "text"
+                                    }
+                                ],
+                                "body": {
+                                    "mode": "formdata",
+                                    "formdata": [{
+                                            "key": "name_ar",
+                                            "value": "مهندس",
+                                            "type": "text"
+                                        },
+                                        {
+                                            "key": "name_en",
+                                            "value": "Enigniner",
+                                            "type": "text"
+                                        },
+                                        {
+                                            "key": "faculty_ids[]",
+                                            "value": "2",
+                                            "type": "text"
+                                        },
+                                        {
+                                            "key": "faculty_ids[]",
+                                            "value": "3",
+                                            "type": "text"
+                                        },
+                                        {
+                                            "key": "",
+                                            "value": "",
+                                            "type": "text",
+                                            "disabled": true
+                                        }
+                                    ]
+                                },
+                                "url": {
+                                    "raw": "{{host}}/master-data/professions",
+                                    "host": [
+                                        "{{host}}"
+                                    ],
+                                    "path": [
+                                        "master-data",
+                                        "professions"
+                                    ]
+                                }
+                            },
+                            "response": []
+                        },
+                        {
+                            "name": "Update",
+                            "protocolProfileBehavior": {
+                                "disabledSystemHeaders": {}
+                            },
+                            "request": {
+                                "auth": {
+                                    "type": "bearer",
+                                    "bearer": [{
+                                        "key": "token",
+                                        "value": "6|Yu7QWWi7miFBoPLmMuZYaEmWDww28KG9egjq6pcK",
+                                        "type": "string"
+                                    }]
+                                },
+                                "method": "PUT",
+                                "header": [{
+                                        "warning": "This is a duplicate header and will be overridden by the Authorization header generated by Postman.",
+                                        "key": "Authorization",
+                                        "value": "Bearer {{token}}",
+                                        "type": "text"
+                                    },
+                                    {
+                                        "key": "Accept",
+                                        "value": "application/json",
+                                        "type": "text"
+                                    }
+                                ],
+                                "body": {
+                                    "mode": "urlencoded",
+                                    "urlencoded": [{
+                                            "key": "name_ar",
+                                            "value": "دكتور",
+                                            "type": "text"
+                                        },
+                                        {
+                                            "key": "name_en",
+                                            "value": "doctor",
+                                            "type": "text"
+                                        },
+                                        {
+                                            "key": "faculty_ids[]",
+                                            "value": "1",
+                                            "type": "text"
+                                        }
+                                    ]
+                                },
+                                "url": {
+                                    "raw": "{{host}}/master-data/professions/:profession",
+                                    "host": [
+                                        "{{host}}"
+                                    ],
+                                    "path": [
+                                        "master-data",
+                                        "professions",
+                                        ":profession"
+                                    ],
+                                    "variable": [{
+                                        "key": "profession",
+                                        "value": "2"
+                                    }]
+                                }
+                            },
+                            "response": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Place Of Birth",
+                    "item": [{
+                            "name": "index",
+                            "request": {
+                                "auth": {
+                                    "type": "bearer",
+                                    "bearer": [{
+                                        "key": "token",
+                                        "value": "6|Yu7QWWi7miFBoPLmMuZYaEmWDww28KG9egjq6pcK",
+                                        "type": "string"
+                                    }]
+                                },
+                                "method": "GET",
+                                "header": [],
+                                "url": {
+                                    "raw": "{{host}}/master-data/place-of-births",
+                                    "host": [
+                                        "{{host}}"
+                                    ],
+                                    "path": [
+                                        "master-data",
+                                        "place-of-births"
+                                    ]
+                                }
+                            },
+                            "response": []
+                        },
+                        {
+                            "name": "show",
+                            "request": {
+                                "auth": {
+                                    "type": "bearer",
+                                    "bearer": [{
+                                        "key": "token",
+                                        "value": "6|Yu7QWWi7miFBoPLmMuZYaEmWDww28KG9egjq6pcK",
+                                        "type": "string"
+                                    }]
+                                },
+                                "method": "GET",
+                                "header": [],
+                                "url": {
+                                    "raw": "{{host}}/master-data/place-of-births/:place",
+                                    "host": [
+                                        "{{host}}"
+                                    ],
+                                    "path": [
+                                        "master-data",
+                                        "place-of-births",
+                                        ":place"
+                                    ],
+                                    "variable": [{
+                                        "key": "place",
+                                        "value": "1"
+                                    }]
+                                }
+                            },
+                            "response": []
+                        },
+                        {
+                            "name": "store",
+                            "protocolProfileBehavior": {
+                                "disabledSystemHeaders": {}
+                            },
+                            "request": {
+                                "auth": {
+                                    "type": "bearer",
+                                    "bearer": [{
+                                        "key": "token",
+                                        "value": "6|Yu7QWWi7miFBoPLmMuZYaEmWDww28KG9egjq6pcK",
+                                        "type": "string"
+                                    }]
+                                },
+                                "method": "POST",
+                                "header": [{
+                                        "warning": "This is a duplicate header and will be overridden by the Authorization header generated by Postman.",
+                                        "key": "Authorization",
+                                        "value": "Bearer {{token}}",
+                                        "type": "text"
+                                    },
+                                    {
+                                        "key": "Accept",
+                                        "value": "application/json",
+                                        "type": "text"
+                                    }
+                                ],
+                                "body": {
+                                    "mode": "formdata",
+                                    "formdata": [{
+                                            "key": "name_ar",
+                                            "value": "القلعة",
+                                            "type": "text"
+                                        },
+                                        {
+                                            "key": "name_en",
+                                            "value": "Qalaa",
+                                            "type": "text"
+                                        },
+                                        {
+                                            "key": "country_id",
+                                            "value": "2",
+                                            "type": "text"
+                                        },
+                                        {
+                                            "key": "gov_id",
+                                            "value": "3",
+                                            "type": "text"
+                                        }
+                                    ]
+                                },
+                                "url": {
+                                    "raw": "{{host}}/master-data/place-of-births/",
+                                    "host": [
+                                        "{{host}}"
+                                    ],
+                                    "path": [
+                                        "master-data",
+                                        "place-of-births",
+                                        ""
+                                    ]
+                                }
+                            },
+                            "response": []
+                        },
+                        {
+                            "name": "Update",
+                            "protocolProfileBehavior": {
+                                "disabledSystemHeaders": {}
+                            },
+                            "request": {
+                                "auth": {
+                                    "type": "bearer",
+                                    "bearer": [{
+                                        "key": "token",
+                                        "value": "6|Yu7QWWi7miFBoPLmMuZYaEmWDww28KG9egjq6pcK",
+                                        "type": "string"
+                                    }]
+                                },
+                                "method": "PUT",
+                                "header": [{
+                                        "warning": "This is a duplicate header and will be overridden by the Authorization header generated by Postman.",
+                                        "key": "Authorization",
+                                        "value": "Bearer {{token}}",
+                                        "type": "text"
+                                    },
+                                    {
+                                        "key": "Accept",
+                                        "value": "application/json",
+                                        "type": "text"
+                                    }
+                                ],
+                                "body": {
+                                    "mode": "urlencoded",
+                                    "urlencoded": [{
+                                            "key": "name_ar",
+                                            "value": "المهندسين",
+                                            "type": "text"
+                                        },
+                                        {
+                                            "key": "name_en",
+                                            "value": "Mohandseen",
+                                            "type": "text"
+                                        },
+                                        {
+                                            "key": "country_id",
+                                            "value": "1",
+                                            "type": "text"
+                                        },
+                                        {
+                                            "key": "gov_id",
+                                            "value": "1",
+                                            "type": "text"
+                                        }
+                                    ]
+                                },
+                                "url": {
+                                    "raw": "{{host}}/master-data/place-of-births/:place",
+                                    "host": [
+                                        "{{host}}"
+                                    ],
+                                    "path": [
+                                        "master-data",
+                                        "place-of-births",
+                                        ":place"
+                                    ],
+                                    "variable": [{
+                                        "key": "place",
+                                        "value": "1"
+                                    }]
+                                }
+                            },
+                            "response": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,2280 @@
+{
+	"info": {
+		"_postman_id": "3baaae8a-1a9b-4d2e-b5cf-e53035de81a4",
+		"name": "FirstEng",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "login",
+			"item": [
+				{
+					"name": "login",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "name",
+									"value": "sys_admin",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "1234567",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{host}}/login",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "reset-password",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "old_password",
+									"value": "123456",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "1234567",
+									"type": "text"
+								},
+								{
+									"key": "password_confirmation",
+									"value": "1234567",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/reset-password",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"reset-password"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "forgot password by username",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "name",
+									"value": "sys_admin1",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/forget-password",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"forget-password"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "submit forgotten password by token",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "token",
+									"value": "swSiEhP9GnTEzbMFTvMBWqafawdcMlAh5sin0yw0mUfPMsgwKHUomEv51GS92x5q",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "1234567",
+									"type": "text"
+								},
+								{
+									"key": "password_confirmation",
+									"value": "1234567",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/reset-forgetten-password",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"reset-forgetten-password"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "reset-password-firstLogin",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "old_password",
+									"value": "123456",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "password",
+									"value": "1234567",
+									"type": "text"
+								},
+								{
+									"key": "password_confirmation",
+									"value": "1234567",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{host}}/first-reset-password",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"first-reset-password"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "General",
+			"item": [
+				{
+					"name": "RelativeDegree",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "Bearer {{token}}"
+							}
+						],
+						"url": {
+							"raw": "{{host}}/general/relative-degree",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"general",
+								"relative-degree"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Governorates",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}",
+								"type": "text"
+							},
+							{
+								"key": "locale",
+								"value": "ar",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "{{host}}/general/governorates",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"general",
+								"governorates"
+							],
+							"query": [
+								{
+									"key": "locale",
+									"value": "ar",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "MaritalStatus",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{host}}/general/marital-status",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"general",
+								"marital-status"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "UniversityType",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{host}}/general/university-type",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"general",
+								"university-type"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "EducationalDegree",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "{{host}}/general/educational-degree",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"general",
+								"educational-degree"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "licenses",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{host}}/general/licenses",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"general",
+								"licenses"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "identityTypes",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{host}}/general/identityTypes",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"general",
+								"identityTypes"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "religions",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{host}}/general/religions",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"general",
+								"religions"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "militaries",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{host}}/general/militaries",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"general",
+								"militaries"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "relativeRoles",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{host}}/general/relativeRoles",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"general",
+								"relativeRoles"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "genders",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{host}}/general/genders",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"general",
+								"genders"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Companies",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{host}}/general/companies",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"general",
+								"companies"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Permissions",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{host}}/general/permissions",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"general",
+								"permissions"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Countries",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}",
+								"type": "text"
+							},
+							{
+								"key": "locale",
+								"value": "ar",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{host}}/general/countries",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"general",
+								"countries"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Dropdwon Countries",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}",
+								"type": "text"
+							},
+							{
+								"key": "locale",
+								"value": "ar",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{host}}/general/dropdwon-countries",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"general",
+								"dropdwon-countries"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "User",
+			"item": [
+				{
+					"name": "index",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{host}}/master-data/user?page=1",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"master-data",
+								"user"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "حسن",
+									"description": "search in (name/fullname_ar/fullname_en)",
+									"disabled": true
+								},
+								{
+									"key": "active",
+									"value": "1",
+									"description": "1==active/0==notactive",
+									"disabled": true
+								},
+								{
+									"key": "block",
+									"value": "1",
+									"description": "1==block/0==unblock",
+									"disabled": true
+								},
+								{
+									"key": "first_login",
+									"value": "1",
+									"description": "1==first_login/0==NOT",
+									"disabled": true
+								},
+								{
+									"key": "email",
+									"value": "tarekbnnnn@test.com",
+									"disabled": true
+								},
+								{
+									"key": "company",
+									"value": "3",
+									"disabled": true
+								},
+								{
+									"key": "role",
+									"value": "2",
+									"disabled": true
+								},
+								{
+									"key": "page",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "create",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"name\":\"t.hassaaan\",\r\n\"full_name_ar\":\"طارق حسن\",\r\n\"full_name_en\":\"tarek\",\r\n\"email\":\"tareekk@test.com\",\r\n\"is_active\":true,\r\n\"is_lock\":false,\r\n\"role\":1,\r\n\"companies\":[1,2]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/master-data/user",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"master-data",
+								"user"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"name\":\"t.hassaaan\",\r\n\"full_name_ar\":\"طارق حسن\",\r\n\"full_name_en\":\"tarek\",\r\n\"email\":\"tareekk@test.com\",\r\n\"is_active\":true,\r\n\"is_lock\":false,\r\n\"role\":1,\r\n\"companies\":[1,2]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/master-data/user/11",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"master-data",
+								"user",
+								"11"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Show",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{host}}/master-data/user/6",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"master-data",
+								"user",
+								"6"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "generate-password",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{host}}/general/generate-password/10",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"general",
+								"generate-password",
+								"10"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "create Copy",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"name\":\"t.hassabnnbnqqn\",\r\n\"full_name_ar\":\"طارق حسن\",\r\n\"full_name_en\":\"tarek\",\r\n\"email\":\"tarekbnnbnqn@test.com\",\r\n\"is_active\":true,\r\n\"is_lock\":false,\r\n\"role\":1,\r\n\"companies\":[1,2]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/master-data/user",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"master-data",
+								"user"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "InsuranceOffice",
+			"item": [
+				{
+					"name": "index",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{host}}/master-data/insurance-office",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"master-data",
+								"insurance-office"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "حسن",
+									"description": "search in (name/fullname_ar/fullname_en)",
+									"disabled": true
+								},
+								{
+									"key": "gov",
+									"value": "1",
+									"disabled": true
+								},
+								{
+									"key": "page",
+									"value": "1",
+									"disabled": true
+								},
+								{
+									"key": "district",
+									"value": "4",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Show",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{host}}/master-data/insurance-office/6",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"master-data",
+								"insurance-office",
+								"6"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "create",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\r\n\"name_ar\":\"تامين\",\r\n\"name_en\":\"office\",\r\n\"address_ar\":\"عنوان المكتب\",\r\n\"address_en\":\"office adds\",\r\n\"location_link\":\"https://www.google.com/maps/place/Social+Insurance+-+Sidi+Gaber/@31.2111686,29.9206283,17z/data=!3m1!4b1!4m5!3m4!1s0x14f5c47c1cbd3a45:0xc918b6f13cf59653!8m2!3d31.2111075!4d29.9228647\",\r\n\"gov_id\":1,\r\n\"districts\":[1,2],\r\n\"phones\":[\"01159210722\",\"01234567891\",\"991234567891\"]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/master-data/insurance-office",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"master-data",
+								"insurance-office"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"name_ar\":\"تامين\",\r\n\"name_en\":\"office\",\r\n\"address_ar\":\"عنوان المكتب\",\r\n\"address_en\":\"office adds\",\r\n\"location_link\":\"https://www.google.com/maps/place/Social+Insurance+-+Sidi+Gaber/@31.2111686,29.9206283,17z/data=!3m1!4b1!4m5!3m4!1s0x14f5c47c1cbd3a45:0xc918b6f13cf59653!8m2!3d31.2111075!4d29.9228647\",\r\n\"gov_id\":1,\r\n\"districts\":[1,2],\r\n\"phones\":[\"01159210722\",\"01234567891\"]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/master-data/insurance-office/6",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"master-data",
+								"insurance-office",
+								"6"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Role",
+			"item": [
+				{
+					"name": "Update",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"name_ar\":\"الصلاحيييية\",\r\n\"name_en\":\"roleddd\",\r\n\"permissions\":[1,2]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/master-data/roles/4",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"master-data",
+								"roles",
+								"4"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"name_ar\":\"الصلاحيييية\",\r\n\"name_en\":\"roleddd\",\r\n\"permissions\":[1,2]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/master-data/roles",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"master-data",
+								"roles"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "show",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{host}}/master-data/roles/2",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"master-data",
+								"roles",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "index",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{host}}/master-data/roles",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"master-data",
+								"roles"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "District",
+			"item": [
+				{
+					"name": "index",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/master-data/district",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"master-data",
+								"district"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "al-douky",
+									"disabled": true
+								},
+								{
+									"key": "page",
+									"value": "2",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "show",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/master-data/district/1",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"master-data",
+								"district",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Store district",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "gov_id",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "name_ar",
+									"value": "حي الدقي",
+									"type": "text"
+								},
+								{
+									"key": "name_en",
+									"value": "Aldouky",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/master-data/district",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"master-data",
+								"district"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update district",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "gov_id",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "name_ar",
+									"value": "الريحان",
+									"type": "text"
+								},
+								{
+									"key": "name_en",
+									"value": "rehan",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/master-data/district/3",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"master-data",
+								"district",
+								"3"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "officeDistrict",
+			"item": [
+				{
+					"name": "index",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/master-data/civil-office",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"master-data",
+								"civil-office"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "حسن",
+									"disabled": true
+								},
+								{
+									"key": "gov",
+									"value": "1",
+									"disabled": true
+								},
+								{
+									"key": "page",
+									"value": "1",
+									"disabled": true
+								},
+								{
+									"key": "district",
+									"value": "4",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "show",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{host}}/master-data/civil-office/2",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"master-data",
+								"civil-office",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Store",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"gov_id\":1,\r\n    \"name_ar\":\"مكتب سموحة\",\r\n    \"name_en\":\"office Smouh\",\r\n    \"address_ar\":\"فوزي معاذ\",\r\n    \"address_en\":\"office faouzi moaz\",\r\n    \"location_link\":\"https://www.google.com/maps/place/Social+Insurance+-+Sidi+Gaber/@31.2111686,29.9206283,17z/data=!3m1!4b1!4m5!3m4!1s0x14f5c47c1cbd3a45:0xc918b6f13cf59653!8m2!3d31.2111075!4d29.9228647\",\r\n    \"districts\":[1,2],\r\n    \"phones\":[\"01159210722\",\"01234567891\",\"991234567891\"]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/master-data/civil-office",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"master-data",
+								"civil-office"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"gov_id\":1,\r\n    \"name_ar\":\"مكتب سيدي جابر\",\r\n    \"name_en\":\"office sidi gaber\",\r\n    \"address_ar\":\"سيدي جابر\",\r\n    \"address_en\":\"office sedi gaber\",\r\n    \"location_link\":\"https://www.google.com/maps/place/Social+Insurance+-+Sidi+Gaber/@31.2111686,29.9206283,17z/data=!3m1!4b1!4m5!3m4!1s0x14f5c47c1cbd3a45:0xc918b6f13cf59653!8m2!3d31.2111075!4d29.9228647\",\r\n    \"districts\":[1,2,3],\r\n    \"phones\":[\"01159210722\",\"01234567891\",\"991234567891\"]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/master-data/civil-office/2",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"master-data",
+								"civil-office",
+								"2"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "university",
+			"item": [
+				{
+					"name": "store",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"name_en\":\"Alexandria\",\r\n\"name_ar\":\"الاسكندرية\",\r\n\"university_type_id\":2,\r\n\"country_id\":2,\r\n\"gov_id\":1\r\n\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/master-data/universities",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"master-data",
+								"universities"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"name_en\":\"Albahera\",\r\n\"name_ar\":\"البحيرة\",\r\n\"university_type_id\":2,\r\n\"country_id\":2,\r\n\"gov_id\":1\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/master-data/universities/1",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"master-data",
+								"universities",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "show",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{host}}/master-data/universities/3",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"master-data",
+								"universities",
+								"3"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "index",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{host}}/master-data/universities",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"master-data",
+								"universities"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Faculty",
+			"item": [
+				{
+					"name": "store",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"name_en\":\"Science\",\r\n\"name_ar\":\"علوم\",\r\n\"university_ids\":[2,1]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/master-data/faculties",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"master-data",
+								"faculties"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"name_en\":\"Science\",\r\n\"name_ar\":\"علوم\",\r\n\"university_ids\":[2]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/master-data/faculties/1",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"master-data",
+								"faculties",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "show",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{host}}/master-data/faculties/1",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"master-data",
+								"faculties",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "index",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{host}}/master-data/faculties",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"master-data",
+								"faculties"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Profession",
+			"item": [
+				{
+					"name": "store",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"name_en\":\"Science\",\r\n\"name_ar\":\"علوم\",\r\n\"university_ids\":[2,1]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/master-data/professions",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"master-data",
+								"professions"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"name_en\":\"Science\",\r\n\"name_ar\":\"علوم\",\r\n\"university_ids\":[2]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/master-data/professions/1",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"master-data",
+								"professions",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "show",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{host}}/master-data/professions/1",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"master-data",
+								"professions",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "index",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{host}}/master-data/professions",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"master-data",
+								"professions"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Place of Birth",
+			"item": [
+				{
+					"name": "store",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"name_en\":\"Mahram bek\",\r\n\"name_ar\":\"محرم بيك\",\r\n\"country_id\":2,\r\n\"gov_id\":1\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/master-data/place-of-births",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"master-data",
+								"place-of-births"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"name_en\":\"el shatby\",\r\n\"name_ar\":\"الشاطبي\",\r\n\"country_id\":2,\r\n\"gov_id\":1\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/master-data/place-of-births/1",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"master-data",
+								"place-of-births",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "show",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{host}}/master-data/place-of-births/1",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"master-data",
+								"place-of-births",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "index",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{host}}/master-data/place-of-births",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"master-data",
+								"place-of-births"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

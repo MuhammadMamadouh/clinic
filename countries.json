@@ -1,0 +1,5399 @@
+[
+    {
+        "code": "ad",
+        "name_en": {
+            "common": "Andorra",
+            "official": "Principality of Andorra"
+        },
+        "name_ar": {
+            "common": "أندورا",
+            "official": "إمارة أندورا"
+        },
+        "iso_alpha2": "AD",
+        "iso_alpha3": "AND",
+        "iso_num": "020",
+        "currency": {
+            "EUR": {
+                "iso_4217_code": "EUR",
+                "iso_4217_numeric": 978,
+                "iso_4217_name": "Euro",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "ae",
+        "name_en": {
+            "common": "United Arab Emirates",
+            "official": "United Arab Emirates"
+        },
+        "name_ar": {
+            "common": "الإمارات العربية المتحدة",
+            "official": "الإمارات العربية المتحدة"
+        },
+        "iso_alpha2": "AE",
+        "iso_alpha3": "ARE",
+        "iso_num": "784",
+        "currency": {
+            "AED": {
+                "iso_4217_code": "AED",
+                "iso_4217_numeric": 784,
+                "iso_4217_name": "UAE Dirham",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "af",
+        "name_en": {
+            "common": "Afghanistan",
+            "official": "Islamic Republic of Afghanistan"
+        },
+        "name_ar": {
+            "common": "أفغانستان",
+            "official": "جمهورية أفغانستان الإسلامية"
+          },
+        "iso_alpha2": "AF",
+        "iso_alpha3": "AFG",
+        "iso_num": "004",
+        "currency": {
+            "AFN": {
+                "iso_4217_code": "AFN",
+                "iso_4217_numeric": 971,
+                "iso_4217_name": "Afghani",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "ag",
+        "name_en": {
+            "common": "Antigua and Barbuda",
+            "official": "Antigua and Barbuda"
+        },
+        "name_ar": {
+            "common": "أنتيغوا وبربودا",
+            "official": "أنتيغوا وبربودا"
+          },
+        "iso_alpha2": "AG",
+        "iso_alpha3": "ATG",
+        "iso_num": "028",
+        "currency": {
+            "XCD": {
+                "iso_4217_code": "XCD",
+                "iso_4217_numeric": 951,
+                "iso_4217_name": "East Caribbean Dollar",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "az",
+        "name_en": {
+            "common": "Azerbaijan",
+            "official": "Republic of Azerbaijan"
+        },
+        "name_ar": {
+            "common": "أذربيجان",
+            "official": "جمهورية أذربيجان"
+          },
+        "iso_alpha2": "AZ",
+        "iso_alpha3": "AZE",
+        "iso_num": "031",
+        "currency": {
+            "AZN": {
+                "iso_4217_code": "AZN",
+                "iso_4217_numeric": 944,
+                "iso_4217_name": "Azerbaijanian Manat",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "ba",
+        "name_en": {
+            "common": "Bosnia and Herzegovina",
+            "official": "Bosnia and Herzegovina"
+        },
+        "name_ar": {
+            "common": "البوسنة والهرسك",
+            "official": "البوسنة والهرسك"
+          },
+        "iso_alpha2": "BA",
+        "iso_alpha3": "BIH",
+        "iso_num": "070",
+        "currency": {
+            "BAM": {
+                "iso_4217_code": "BAM",
+                "iso_4217_numeric": 977,
+                "iso_4217_name": "Convertible Mark",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "bb",
+        "name_en": {
+            "common": "Barbados",
+            "official": "Barbados"
+        },
+        "name_ar": {
+            "common": "بربادوس",
+            "official": "بربادوس"
+          },
+        "iso_alpha2": "BB",
+        "iso_alpha3": "BRB",
+        "iso_num": "052",
+        "currency": {
+            "BBD": {
+                "iso_4217_code": "BBD",
+                "iso_4217_numeric": 52,
+                "iso_4217_name": "Barbados Dollar",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "bd",
+        "name_en": {
+            "common": "Bangladesh",
+            "official": "People's Republic of Bangladesh"
+        },
+        "name_ar": {
+            "common": "بنغلاديش",
+            "official": "جمهورية بنغلاديش الشعبية"
+          },
+        "iso_alpha2": "BD",
+        "iso_alpha3": "BGD",
+        "iso_num": "050",
+        "currency": {
+            "BDT": {
+                "iso_4217_code": "BDT",
+                "iso_4217_numeric": 50,
+                "iso_4217_name": "Taka",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "be",
+        "name_en": {
+            "common": "Belgium",
+            "official": "Kingdom of Belgium"
+        },
+        "name_ar": {
+            "common": "بلجيكا",
+            "official": "مملكة بلجيكا"
+          },
+        "iso_alpha2": "BE",
+        "iso_alpha3": "BEL",
+        "iso_num": "056",
+        "currency": {
+            "EUR": {
+                "iso_4217_code": "EUR",
+                "iso_4217_numeric": 978,
+                "iso_4217_name": "Euro",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "bf",
+        "name_en": {
+            "common": "Burkina Faso",
+            "official": "Burkina Faso"
+        },
+        "name_ar": {
+            "common": "بوركينا فاسو",
+            "official": "بوركينا فاسو"
+          },
+        "iso_alpha2": "BF",
+        "iso_alpha3": "BFA",
+        "iso_num": "854",
+        "currency": {
+            "XOF": {
+                "iso_4217_code": "XOF",
+                "iso_4217_numeric": 952,
+                "iso_4217_name": "CFA Franc BCEAO",
+                "iso_4217_minor_unit": 0
+            }
+        }
+    },
+    {
+        "code": "bg",
+        "name_en": {
+            "common": "Bulgaria",
+            "official": "Republic of Bulgaria"
+        },
+        "name_ar": {
+            "common": "بلغاريا",
+            "official": "جمهورية بلغاريا"
+          },
+        "iso_alpha2": "BG",
+        "iso_alpha3": "BGR",
+        "iso_num": "100",
+        "currency": {
+            "BGN": {
+                "iso_4217_code": "BGN",
+                "iso_4217_numeric": 975,
+                "iso_4217_name": "Bulgarian Lev",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "bh",
+        "name_en": {
+            "common": "Bahrain",
+            "official": "Kingdom of Bahrain"
+        },
+        "name_ar": {
+            "common": "البحرين",
+            "official": "مملكة البحرين"
+          },
+        "iso_alpha2": "BH",
+        "iso_alpha3": "BHR",
+        "iso_num": "048",
+        "currency": {
+            "BHD": {
+                "iso_4217_code": "BHD",
+                "iso_4217_numeric": 48,
+                "iso_4217_name": "Bahraini Dinar",
+                "iso_4217_minor_unit": 3
+            }
+        }
+    },
+    {
+        "code": "bi",
+        "name_en": {
+            "common": "Burundi",
+            "official": "Republic of Burundi"
+        },
+        "name_ar": {
+            "common": "بوروندي",
+            "official": "جمهورية بوروندي"
+          },
+        "iso_alpha2": "BI",
+        "iso_alpha3": "BDI",
+        "iso_num": "108",
+        "currency": {
+            "BIF": {
+                "iso_4217_code": "BIF",
+                "iso_4217_numeric": 108,
+                "iso_4217_name": "Burundi Franc",
+                "iso_4217_minor_unit": 0
+            }
+        }
+    },
+    {
+        "code": "bj",
+        "name_en": {
+            "common": "Benin",
+            "official": "Republic of Benin"
+        },
+        "name_ar": {
+            "common": "بنن",
+            "official": "جمهورية بنن"
+          },
+        "iso_alpha2": "BJ",
+        "iso_alpha3": "BEN",
+        "iso_num": "204",
+        "currency": {
+            "XOF": {
+                "iso_4217_code": "XOF",
+                "iso_4217_numeric": 952,
+                "iso_4217_name": "CFA Franc BCEAO",
+                "iso_4217_minor_unit": 0
+            }
+        }
+    },
+    {
+        "code": "bl",
+        "name_en": {
+            "common": "Saint Barthélemy",
+            "official": "Collectivity of Saint Barthélemy"
+        },
+        "name_ar": {
+            "common": "سانت كيتس ونيفس",
+            "official": "سانت كيتس ونيفس"
+          },
+        "iso_alpha2": "BL",
+        "iso_alpha3": "BLM",
+        "iso_num": "652",
+        "currency": {
+            "EUR": {
+                "iso_4217_code": "EUR",
+                "iso_4217_numeric": 978,
+                "iso_4217_name": "Euro",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "al",
+        "name_en": {
+            "common": "Albania",
+            "official": "Republic of Albania"
+        },
+        "name_ar": {
+            "common": "ألبانيا",
+            "official": "جمهورية ألبانيا"
+          },
+        "iso_alpha2": "AL",
+        "iso_alpha3": "ALB",
+        "iso_num": "008",
+        "currency": {
+            "ALL": {
+                "iso_4217_code": "ALL",
+                "iso_4217_numeric": 8,
+                "iso_4217_name": "Lek",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "am",
+        "name_en": {
+            "common": "Armenia",
+            "official": "Republic of Armenia"
+        },
+        "name_ar": {
+            "common": "أرمينيا",
+            "official": "جمهورية أرمينيا"
+          },
+        "iso_alpha2": "AM",
+        "iso_alpha3": "ARM",
+        "iso_num": "051",
+        "currency": {
+            "AMD": {
+                "iso_4217_code": "AMD",
+                "iso_4217_numeric": 51,
+                "iso_4217_name": "Armenian Dram",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "ao",
+        "name_en": {
+            "common": "Angola",
+            "official": "Republic of Angola"
+        },
+        "name_ar": {
+            "common": "أنغولا",
+            "official": "جمهورية أنغولا"
+          },
+        "iso_alpha2": "AO",
+        "iso_alpha3": "AGO",
+        "iso_num": "024",
+        "currency": {
+            "AOA": {
+                "iso_4217_code": "AOA",
+                "iso_4217_numeric": 973,
+                "iso_4217_name": "Kwanza",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "ar",
+        "name_en": {
+            "common": "Argentina",
+            "official": "Argentine Republic"
+        },
+        "name_ar": {
+            "common": "الأرجنتين",
+            "official": "جمهورية الأرجنتين"
+          },
+        "iso_alpha2": "AR",
+        "iso_alpha3": "ARG",
+        "iso_num": "032",
+        "currency": {
+            "ARS": {
+                "iso_4217_code": "ARS",
+                "iso_4217_numeric": 32,
+                "iso_4217_name": "Argentine Peso",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "as",
+        "name_en": {
+            "common": "American Samoa",
+            "official": "American Samoa"
+        },
+        "name_ar": {
+            "common": "ساموا",
+            "official": "دولة ساموا المستقلة"
+          },
+        "iso_alpha2": "AS",
+        "iso_alpha3": "ASM",
+        "iso_num": "016",
+        "currency": {
+            "USD": {
+                "iso_4217_code": "USD",
+                "iso_4217_numeric": 840,
+                "iso_4217_name": "US Dollar",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "at",
+        "name_en": {
+            "common": "Austria",
+            "official": "Republic of Austria"
+        },
+        "name_ar": {
+            "common": "النمسا",
+            "official": "جمهورية النمسا"
+          },
+        "iso_alpha2": "AT",
+        "iso_alpha3": "AUT",
+        "iso_num": "040",
+        "currency": {
+            "EUR": {
+                "iso_4217_code": "EUR",
+                "iso_4217_numeric": 978,
+                "iso_4217_name": "Euro",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "au",
+        "name_en": {
+            "common": "Australia",
+            "official": "Commonwealth of Australia"
+        },
+        "name_ar": {
+            "common": "أستراليا",
+            "official": "أستراليا"
+          },
+        "iso_alpha2": "AU",
+        "iso_alpha3": "AUS",
+        "iso_num": "036",
+        "currency": {
+            "AUD": {
+                "iso_4217_code": "AUD",
+                "iso_4217_numeric": 36,
+                "iso_4217_name": "Australian Dollar",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "bn",
+        "name_en": {
+            "common": "Brunei",
+            "official": "Nation of Brunei, Abode of Peace"
+        },
+        "name_ar": {
+            "common": "بروني دار السلام",
+            "official": "بروني دار السلام"
+          },
+        "iso_alpha2": "BN",
+        "iso_alpha3": "BRN",
+        "iso_num": "096",
+        "currency": {
+            "BND": {
+                "iso_4217_code": "BND",
+                "iso_4217_numeric": 96,
+                "iso_4217_name": "Brunei Dollar",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "bo",
+        "name_en": {
+            "common": "Bolivia",
+            "official": "Plurinational State of Bolivia"
+        },
+        "name_ar": {
+            "common": "بوليفيا (دولة - المتعددة القوميات)",
+            "official": "دولة بوليفيا المتعددة القوميات"
+          },
+        "iso_alpha2": "BO",
+        "iso_alpha3": "BOL",
+        "iso_num": "068",
+        "currency": {
+            "BOV": {
+                "iso_4217_code": "BOV",
+                "iso_4217_numeric": 984,
+                "iso_4217_name": "Bolivian Mvdol (funds code)",
+                "iso_4217_minor_unit": 2
+            },
+            "BOB": {
+                "iso_4217_code": "BOB",
+                "iso_4217_numeric": "068",
+                "iso_4217_name": "Boliviano",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "br",
+        "name_en": {
+            "common": "Brazil",
+            "official": "Federative Republic of Brazil"
+        },
+        "name_ar": {
+            "common": "البرازيل",
+            "official": "جمهورية البرازيل الاتحادية"
+          },
+        "iso_alpha2": "BR",
+        "iso_alpha3": "BRA",
+        "iso_num": "076",
+        "currency": {
+            "BRL": {
+                "iso_4217_code": "BRL",
+                "iso_4217_numeric": 986,
+                "iso_4217_name": "Brazilian Real",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "bs",
+        "name_en": {
+            "common": "Bahamas",
+            "official": "Commonwealth of the Bahamas"
+        },
+        "name_ar": {
+            "common": "جزر البهاما",
+            "official": "كمنولث جزر البهاما"
+          },
+        "iso_alpha2": "BS",
+        "iso_alpha3": "BHS",
+        "iso_num": "044",
+        "currency": {
+            "BSD": {
+                "iso_4217_code": "BSD",
+                "iso_4217_numeric": 44,
+                "iso_4217_name": "Bahamian Dollar",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "bt",
+        "name_en": {
+            "common": "Bhutan",
+            "official": "Kingdom of Bhutan"
+        },
+        "name_ar": {
+            "common": "بوتان",
+            "official": "مملكة بوتان"
+          },
+        "iso_alpha2": "BT",
+        "iso_alpha3": "BTN",
+        "iso_num": "064",
+        "currency": {
+            "BTN": {
+                "iso_4217_code": "BTN",
+                "iso_4217_numeric": "064",
+                "iso_4217_name": "Bhutanese ngultrum",
+                "iso_4217_minor_unit": 2
+            },
+            "INR": {
+                "iso_4217_code": "INR",
+                "iso_4217_numeric": 356,
+                "iso_4217_name": "Indian Rupee",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "bw",
+        "name_en": {
+            "common": "Botswana",
+            "official": "Republic of Botswana"
+        },
+        "name_ar": {
+            "common": "بوتسوانا",
+            "official": "جمهورية بوتسوانا"
+          },
+        "iso_alpha2": "BW",
+        "iso_alpha3": "BWA",
+        "iso_num": "072",
+        "currency": {
+            "BWP": {
+                "iso_4217_code": "BWP",
+                "iso_4217_numeric": 72,
+                "iso_4217_name": "Pula",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "by",
+        "name_en": {
+            "common": "Belarus",
+            "official": "Republic of Belarus"
+        },
+        "name_ar": {
+            "common": "بيلاروس",
+            "official": "جمهورية بيلاروس"
+          },
+        "iso_alpha2": "BY",
+        "iso_alpha3": "BLR",
+        "iso_num": "112",
+        "currency": {
+            "BYN": {
+                "iso_4217_code": "BYN",
+                "iso_4217_numeric": 933,
+                "iso_4217_name": "Belarussian Ruble",
+                "iso_4217_minor_unit": 2
+            },
+            "BYR": {
+                "iso_4217_code": "BYR",
+                "iso_4217_numeric": 974,
+                "iso_4217_name": "Belarussian Ruble",
+                "iso_4217_minor_unit": 0
+            }
+        }
+    },
+    {
+        "code": "bz",
+        "name_en": {
+            "common": "Belize",
+            "official": "Belize"
+        },
+        "name_ar": {
+            "common": "بليز",
+            "official": "بليز"
+          },
+        "iso_alpha2": "BZ",
+        "iso_alpha3": "BLZ",
+        "iso_num": "084",
+        "currency": {
+            "BZD": {
+                "iso_4217_code": "BZD",
+                "iso_4217_numeric": 84,
+                "iso_4217_name": "Belize Dollar",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "ca",
+        "name_en": {
+            "common": "Canada",
+            "official": "Canada"
+        },
+        "name_ar": {
+            "common": "كندا",
+            "official": "كندا"
+          },
+        "iso_alpha2": "CA",
+        "iso_alpha3": "CAN",
+        "iso_num": "124",
+        "currency": {
+            "CAD": {
+                "iso_4217_code": "CAD",
+                "iso_4217_numeric": 124,
+                "iso_4217_name": "Canadian Dollar",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "cd",
+        "name_en": {
+            "common": "DR Congo",
+            "official": "Democratic Republic of the Congo"
+        },
+        "name_ar": {
+            "common": "الكونغو",
+            "official": "جمهورية الكونغو"
+          },
+        "iso_alpha2": "CD",
+        "iso_alpha3": "COD",
+        "iso_num": "180",
+        "currency": {
+            "CDF": {
+                "iso_4217_code": "CDF",
+                "iso_4217_numeric": 976,
+                "iso_4217_name": "Congolese franc",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "cf",
+        "name_en": {
+            "common": "Central African Republic",
+            "official": "Central African Republic"
+        },
+        "name_ar": {
+            "common": "جمهورية أفريقيا الوسطى",
+            "official": "جمهورية أفريقيا الوسطى"
+          },
+        "iso_alpha2": "CF",
+        "iso_alpha3": "CAF",
+        "iso_num": "140",
+        "currency": {
+            "XAF": {
+                "iso_4217_code": "XAF",
+                "iso_4217_numeric": 950,
+                "iso_4217_name": "CFA Franc BEAC",
+                "iso_4217_minor_unit": 0
+            }
+        }
+    },
+    {
+        "code": "cg",
+        "name_en": {
+            "common": "Republic of the Congo",
+            "official": "Republic of the Congo"
+        },
+        "name_ar": {
+            "common": "جمهورية الكونغو الديمقراطية",
+            "official": "جمهورية الكونغو الديمقراطية"
+          },
+        "iso_alpha2": "CG",
+        "iso_alpha3": "COG",
+        "iso_num": "178",
+        "currency": {
+            "XAF": {
+                "iso_4217_code": "XAF",
+                "iso_4217_numeric": 950,
+                "iso_4217_name": "CFA Franc BEAC",
+                "iso_4217_minor_unit": 0
+            }
+        }
+    },
+    {
+        "code": "ch",
+        "name_en": {
+            "common": "Switzerland",
+            "official": "Swiss Confederation"
+        },
+        "name_ar": {
+            "common": "سويسرا",
+            "official": "الاتحاد السويسري"
+          },
+        "iso_alpha2": "CH",
+        "iso_alpha3": "CHE",
+        "iso_num": "756",
+        "currency": {
+            "CHF": {
+                "iso_4217_code": "CHF",
+                "iso_4217_numeric": 756,
+                "iso_4217_name": "Swiss Franc",
+                "iso_4217_minor_unit": 2
+            },
+            "CHE": {
+                "iso_4217_code": "CHE",
+                "iso_4217_numeric": 947,
+                "iso_4217_name": "WIR Euro (complementary currency)",
+                "iso_4217_minor_unit": 2
+            },
+            "CHW": {
+                "iso_4217_code": "CHW",
+                "iso_4217_numeric": 948,
+                "iso_4217_name": "WIR Franc (complementary currency)",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "ck",
+        "name_en": {
+            "common": "Cook Islands",
+            "official": "Cook Islands"
+        },
+        "name_ar": {
+            "common": "جزر كوك",
+            "official": "جزر كوك"
+          },
+        "iso_alpha2": "CK",
+        "iso_alpha3": "COK",
+        "iso_num": "184",
+        "currency": {
+            "NZD": {
+                "iso_4217_code": "NZD",
+                "iso_4217_numeric": 554,
+                "iso_4217_name": "New Zealand Dollar",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "cl",
+        "name_en": {
+            "common": "Chile",
+            "official": "Republic of Chile"
+        },
+        "name_ar": {
+            "common": "شيلي",
+            "official": "جمهورية شيلي"
+          },
+        "iso_alpha2": "CL",
+        "iso_alpha3": "CHL",
+        "iso_num": "152",
+        "currency": {
+            "CLP": {
+                "iso_4217_code": "CLP",
+                "iso_4217_numeric": 152,
+                "iso_4217_name": "Chilean Peso",
+                "iso_4217_minor_unit": 0
+            },
+            "CLF": {
+                "iso_4217_code": "CLF",
+                "iso_4217_numeric": 990,
+                "iso_4217_name": "Unidad de Fomento (funds code)",
+                "iso_4217_minor_unit": 4
+            }
+        }
+    },
+    {
+        "code": "cm",
+        "name_en": {
+            "common": "Cameroon",
+            "official": "Republic of Cameroon"
+        },
+        "name_ar": {
+            "common": "الكاميرون",
+            "official": "جمهورية الكاميرون"
+          },
+        "iso_alpha2": "CM",
+        "iso_alpha3": "CMR",
+        "iso_num": "120",
+        "currency": {
+            "XAF": {
+                "iso_4217_code": "XAF",
+                "iso_4217_numeric": 950,
+                "iso_4217_name": "CFA Franc BEAC",
+                "iso_4217_minor_unit": 0
+            }
+        }
+    },
+    {
+        "code": "cn",
+        "name_en": {
+            "common": "China",
+            "official": "People's Republic of China"
+        },
+        "name_ar": {
+            "common": "الصين",
+            "official": "جمهورية الصين الشعبية"
+          },
+        "iso_alpha2": "CN",
+        "iso_alpha3": "CHN",
+        "iso_num": "156",
+        "currency": {
+            "CNY": {
+                "iso_4217_code": "CNY",
+                "iso_4217_numeric": 156,
+                "iso_4217_name": "Yuan Renminbi",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "co",
+        "name_en": {
+            "common": "Colombia",
+            "official": "Republic of Colombia"
+        },
+        "name_ar": {
+            "common": "كولومبيا",
+            "official": "جمهورية كولومبيا"
+          },
+        "iso_alpha2": "CO",
+        "iso_alpha3": "COL",
+        "iso_num": "170",
+        "currency": {
+            "COP": {
+                "iso_4217_code": "COP",
+                "iso_4217_numeric": 170,
+                "iso_4217_name": "Colombian Peso",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "cr",
+        "name_en": {
+            "common": "Costa Rica",
+            "official": "Republic of Costa Rica"
+        },
+        "name_ar": {
+            "common": "كوستاريكا",
+            "official": "جمهورية كوستاريكا"
+          },
+        "iso_alpha2": "CR",
+        "iso_alpha3": "CRI",
+        "iso_num": "188",
+        "currency": {
+            "CRC": {
+                "iso_4217_code": "CRC",
+                "iso_4217_numeric": 188,
+                "iso_4217_name": "Costa Rican Colon",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "cu",
+        "name_en": {
+            "common": "Cuba",
+            "official": "Republic of Cuba"
+        },
+        "name_ar": {
+            "common": "كوبا",
+            "official": "جمهورية كوبا"
+          },
+        "iso_alpha2": "CU",
+        "iso_alpha3": "CUB",
+        "iso_num": "192",
+        "currency": {
+            "CUP": {
+                "iso_4217_code": "CUP",
+                "iso_4217_numeric": 192,
+                "iso_4217_name": "Cuban Peso",
+                "iso_4217_minor_unit": 2
+            },
+            "CUC": {
+                "iso_4217_code": "CUC",
+                "iso_4217_numeric": 931,
+                "iso_4217_name": "Cuban convertible peso",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "cv",
+        "name_en": {
+            "common": "Cape Verde",
+            "official": "Republic of Cabo Verde"
+        },
+        "name_ar": {
+            "common": "كابو فيردي",
+            "official": "جمهورية كابو فيردي"
+          },
+        "iso_alpha2": "CV",
+        "iso_alpha3": "CPV",
+        "iso_num": "132",
+        "currency": {
+            "CVE": {
+                "iso_4217_code": "CVE",
+                "iso_4217_numeric": 132,
+                "iso_4217_name": "Cabo Verde Escudo",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "cy",
+        "name_en": {
+            "common": "Cyprus",
+            "official": "Republic of Cyprus"
+        },
+        "name_ar": {
+            "common": "قبرص",
+            "official": "جمهورية قبرص"
+          },
+        "iso_alpha2": "CY",
+        "iso_alpha3": "CYP",
+        "iso_num": "196",
+        "currency": {
+            "EUR": {
+                "iso_4217_code": "EUR",
+                "iso_4217_numeric": 978,
+                "iso_4217_name": "Euro",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "cz",
+        "name_en": {
+            "common": "Czech Republic",
+            "official": "Czech Republic"
+        },
+        "name_ar": {
+            "common": "تشيكيا",
+            "official": "الجمهورية التشيكية"
+          },
+        "iso_alpha2": "CZ",
+        "iso_alpha3": "CZE",
+        "iso_num": "203",
+        "currency": {
+            "CZK": {
+                "iso_4217_code": "CZK",
+                "iso_4217_numeric": 203,
+                "iso_4217_name": "Czech Koruna",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "de",
+        "name_en": {
+            "common": "Germany",
+            "official": "Federal Republic of Germany"
+        },
+        "name_ar": {
+            "common": "ألمانيا",
+            "official": "جمهورية ألمانيا الاتحادية"
+          },
+        "iso_alpha2": "DE",
+        "iso_alpha3": "DEU",
+        "iso_num": "276",
+        "currency": {
+            "EUR": {
+                "iso_4217_code": "EUR",
+                "iso_4217_numeric": 978,
+                "iso_4217_name": "Euro",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "dj",
+        "name_en": {
+            "common": "Djibouti",
+            "official": "Republic of Djibouti"
+        },
+        "name_ar": {
+            "common": "جيبوتي",
+            "official": "جمهورية جيبوتي"
+          },
+        "iso_alpha2": "DJ",
+        "iso_alpha3": "DJI",
+        "iso_num": "262",
+        "currency": {
+            "DJF": {
+                "iso_4217_code": "DJF",
+                "iso_4217_numeric": 262,
+                "iso_4217_name": "Djibouti Franc",
+                "iso_4217_minor_unit": 0
+            }
+        }
+    },
+    {
+        "code": "dk",
+        "name_en": {
+            "common": "Denmark",
+            "official": "Kingdom of Denmark"
+        },
+        "name_ar": {
+            "common": "الدانمرك",
+            "official": "مملكة الدانمرك"
+          },
+        "iso_alpha2": "DK",
+        "iso_alpha3": "DNK",
+        "iso_num": "208",
+        "currency": {
+            "DKK": {
+                "iso_4217_code": "DKK",
+                "iso_4217_numeric": 208,
+                "iso_4217_name": "Danish Krone",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "dm",
+        "name_en": {
+            "common": "Dominica",
+            "official": "Commonwealth of Dominica"
+        },
+        "name_ar": {
+            "common": "دومينيكا",
+            "official": "كمنولث دومينيكا"
+          },
+       
+        "iso_alpha2": "DM",
+        "iso_alpha3": "DMA",
+        "iso_num": "212",
+        "currency": {
+            "XCD": {
+                "iso_4217_code": "XCD",
+                "iso_4217_numeric": 951,
+                "iso_4217_name": "East Caribbean Dollar",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "dz",
+        "name_en": {
+            "common": "Algeria",
+            "official": "People's Democratic Republic of Algeria"
+        },
+        "name_ar": {
+            "common": "الجزائر",
+            "official": "الجمهورية الجزائرية الديمقراطية الشعبية"
+          },
+        "iso_alpha2": "DZ",
+        "iso_alpha3": "DZA",
+        "iso_num": "012",
+        "currency": {
+            "DZD": {
+                "iso_4217_code": "DZD",
+                "iso_4217_numeric": 12,
+                "iso_4217_name": "Algerian Dinar",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "ec",
+        "name_en": {
+            "common": "Ecuador",
+            "official": "Republic of Ecuador"
+        },
+        "name_ar": {
+            "common": "إكوادور",
+            "official": "جمهورية إكوادور"
+          },
+        "iso_alpha2": "EC",
+        "iso_alpha3": "ECU",
+        "iso_num": "218",
+        "currency": {
+            "USD": {
+                "iso_4217_code": "USD",
+                "iso_4217_numeric": 840,
+                "iso_4217_name": "US Dollar",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "ee",
+        "name_en": {
+            "common": "Estonia",
+            "official": "Republic of Estonia"
+        },
+        "name_ar": {
+            "common": "إستونيا",
+            "official": "جمهورية إستونيا"
+          },
+        "iso_alpha2": "EE",
+        "iso_alpha3": "EST",
+        "iso_num": "233",
+        "currency": {
+            "EUR": {
+                "iso_4217_code": "EUR",
+                "iso_4217_numeric": 978,
+                "iso_4217_name": "Euro",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "eg",
+        "name_en": {
+            "common": "Egypt",
+            "official": "Arab Republic of Egypt"
+        },
+        "name_ar": {
+            "common": "مصر",
+            "official": "جمهورية مصر العربية"
+          },
+        "iso_alpha2": "EG",
+        "iso_alpha3": "EGY",
+        "iso_num": "818",
+        "currency": {
+            "EGP": {
+                "iso_4217_code": "EGP",
+                "iso_4217_numeric": 818,
+                "iso_4217_name": "Egyptian Pound",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "er",
+        "name_en": {
+            "common": "Eritrea",
+            "official": "State of Eritrea"
+        },
+        "name_ar": {
+            "common": "إريتريا",
+            "official": "دولة إريتريا"
+          },
+        "iso_alpha2": "ER",
+        "iso_alpha3": "ERI",
+        "iso_num": "232",
+        "currency": {
+            "ERN": {
+                "iso_4217_code": "ERN",
+                "iso_4217_numeric": 232,
+                "iso_4217_name": "Nakfa",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "es",
+        "name_en": {
+            "common": "Spain",
+            "official": "Kingdom of Spain"
+        },
+        "name_ar": {
+            "common": "إسبانيا",
+            "official": "مملكة إسبانيا"
+          },
+        "iso_alpha2": "ES",
+        "iso_alpha3": "ESP",
+        "iso_num": "724",
+        "currency": {
+            "EUR": {
+                "iso_4217_code": "EUR",
+                "iso_4217_numeric": 978,
+                "iso_4217_name": "Euro",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "et",
+        "name_en": {
+            "common": "Ethiopia",
+            "official": "Federal Democratic Republic of Ethiopia"
+        },
+        "name_ar": {
+            "common": "إثيوبيا",
+            "official": "جمهورية إثيوبيا الديمقراطية الاتحادية"
+          },
+        "iso_alpha2": "ET",
+        "iso_alpha3": "ETH",
+        "iso_num": "231",
+        "currency": {
+            "ETB": {
+                "iso_4217_code": "ETB",
+                "iso_4217_numeric": 230,
+                "iso_4217_name": "Ethiopian Birr",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "fi",
+        "name_en": {
+            "common": "Finland",
+            "official": "Republic of Finland"
+        },
+        "name_ar": {
+            "common": "فنلندا",
+            "official": "جمهورية فنلندا"
+          },
+        "iso_alpha2": "FI",
+        "iso_alpha3": "FIN",
+        "iso_num": "246",
+        "currency": {
+            "EUR": {
+                "iso_4217_code": "EUR",
+                "iso_4217_numeric": 978,
+                "iso_4217_name": "Euro",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "fj",
+        "name_en": {
+            "common": "Fiji",
+            "official": "Republic of Fiji"
+        },
+        "name_ar": {
+            "common": "فيجي",
+            "official": "جمهورية فيجي"
+          },
+        "iso_alpha2": "FJ",
+        "iso_alpha3": "FJI",
+        "iso_num": "242",
+        "currency": {
+            "FJD": {
+                "iso_4217_code": "FJD",
+                "iso_4217_numeric": 242,
+                "iso_4217_name": "Fiji Dollar",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "fm",
+        "name_en": {
+            "common": "Micronesia",
+            "official": "Federated States of Micronesia"
+        },
+        "name_ar": {
+            "common": "ميكرونيزيا (ولايات - الموحدة)",
+            "official": "ولايات ميكرونيزيا الموحدة"
+          },
+        "iso_alpha2": "FM",
+        "iso_alpha3": "FSM",
+        "iso_num": "583",
+        "currency": {
+            "USD": {
+                "iso_4217_code": "USD",
+                "iso_4217_numeric": 840,
+                "iso_4217_name": "US Dollar",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "fr",
+        "name_en": {
+            "common": "France",
+            "official": "French Republic"
+        },
+        "name_ar": {
+            "common": "فرنسا",
+            "official": "الجمهورية الفرنسية"
+          },
+        "iso_alpha2": "FR",
+        "iso_alpha3": "FRA",
+        "iso_num": "250",
+        "currency": {
+            "EUR": {
+                "iso_4217_code": "EUR",
+                "iso_4217_numeric": 978,
+                "iso_4217_name": "Euro",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "ga",
+        "name_en": {
+            "common": "Gabon",
+            "official": "Gabonese Republic"
+        },
+        "name_ar": {
+            "common": "غابون",
+            "official": "جمهورية الغابون"
+          },
+        "iso_alpha2": "GA",
+        "iso_alpha3": "GAB",
+        "iso_num": "266",
+        "currency": {
+            "XAF": {
+                "iso_4217_code": "XAF",
+                "iso_4217_numeric": 950,
+                "iso_4217_name": "CFA Franc BEAC",
+                "iso_4217_minor_unit": 0
+            }
+        }
+    },
+    {
+        "code": "gb",
+        "name_en": {
+            "common": "United Kingdom",
+            "official": "United Kingdom of Great Britain and Northern Ireland"
+        },
+        "name_ar": {
+            "common": "المملكة المتحدة لبريطانيا العظمى وأيرلندا الشمالية",
+            "official": "المملكة المتحدة لبريطانيا العظمى وأيرلندا الشمالية"
+          },
+        "iso_alpha2": "GB",
+        "iso_alpha3": "GBR",
+        "iso_num": "826",
+        "currency": {
+            "GBP": {
+                "iso_4217_code": "GBP",
+                "iso_4217_numeric": 826,
+                "iso_4217_name": "Pound sterling",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "gd",
+        "name_en": {
+            "common": "Grenada",
+            "official": "Grenada"
+        },
+        "name_ar": {
+            "common": "غرينادا",
+            "official": "غرينادا"
+          },
+        "iso_alpha2": "GD",
+        "iso_alpha3": "GRD",
+        "iso_num": "308",
+        "currency": {
+            "XCD": {
+                "iso_4217_code": "XCD",
+                "iso_4217_numeric": 951,
+                "iso_4217_name": "East Caribbean Dollar",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "ge",
+        "name_en": {
+            "common": "Georgia",
+            "official": "Georgia"
+        },
+        "name_ar": {
+            "common": "جورجيا",
+            "official": "جورجيا"
+          },
+        "iso_alpha2": "GE",
+        "iso_alpha3": "GEO",
+        "iso_num": "268",
+        "currency": {
+            "GEL": {
+                "iso_4217_code": "GEL",
+                "iso_4217_numeric": 981,
+                "iso_4217_name": "Lari",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "gh",
+        "name_en": {
+            "common": "Ghana",
+            "official": "Republic of Ghana"
+        },
+        "name_ar": {
+            "common": "غانا",
+            "official": "جمهورية غانا"
+          },
+        "iso_alpha2": "GH",
+        "iso_alpha3": "GHA",
+        "iso_num": "288",
+        "currency": {
+            "GHS": {
+                "iso_4217_code": "GHS",
+                "iso_4217_numeric": 936,
+                "iso_4217_name": "Ghana Cedi",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "gm",
+        "name_en": {
+            "common": "Gambia",
+            "official": "Republic of the Gambia"
+        },
+        "name_ar": {
+            "common": "غامبيا",
+            "official": "جمهورية غامبيا"
+          },
+        "iso_alpha2": "GM",
+        "iso_alpha3": "GMB",
+        "iso_num": "270",
+        "currency": {
+            "GMD": {
+                "iso_4217_code": "GMD",
+                "iso_4217_numeric": 270,
+                "iso_4217_name": "Dalasi",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "kh",
+        "name_en": {
+            "common": "Cambodia",
+            "official": "Kingdom of Cambodia"
+        },
+        "name_ar": {
+            "common": "كمبوديا",
+            "official": "مملكة كمبوديا"
+          },
+        "iso_alpha2": "KH",
+        "iso_alpha3": "KHM",
+        "iso_num": "116",
+        "currency": {
+            "KHR": {
+                "iso_4217_code": "KHR",
+                "iso_4217_numeric": 116,
+                "iso_4217_name": "Riel",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "ki",
+        "name_en": {
+            "common": "Kiribati",
+            "official": "Independent and Sovereign Republic of Kiribati"
+        },
+        "name_ar": {
+            "common": "كيريباس",
+            "official": "جمهورية كيريباس"
+          },
+        "iso_alpha2": "KI",
+        "iso_alpha3": "KIR",
+        "iso_num": "296",
+        "currency": {
+            "AUD": {
+                "iso_4217_code": "AUD",
+                "iso_4217_numeric": 36,
+                "iso_4217_name": "Australian Dollar",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "km",
+        "name_en": {
+            "common": "Comoros",
+            "official": "Union of the Comoros"
+        },
+        "name_ar": {
+            "common": "جزر القمر",
+            "official": "اتحاد جزر القمر"
+          },
+        "iso_alpha2": "KM",
+        "iso_alpha3": "COM",
+        "iso_num": "174",
+        "currency": {
+            "KMF": {
+                "iso_4217_code": "KMF",
+                "iso_4217_numeric": 174,
+                "iso_4217_name": "Comoro Franc",
+                "iso_4217_minor_unit": 0
+            }
+        }
+    },
+    {
+        "code": "kp",
+        "name_en": {
+            "common": "North Korea",
+            "official": "Democratic People's Republic of Korea"
+        },
+        "name_ar": {
+            "common": "جمهورية كوريا الشعبية الديمقراطية",
+            "official": "جمهورية كوريا الشعبية الديمقراطية"
+          },
+        "iso_alpha2": "KP",
+        "iso_alpha3": "PRK",
+        "iso_num": "408",
+        "currency": {
+            "KPW": {
+                "iso_4217_code": "KPW",
+                "iso_4217_numeric": 408,
+                "iso_4217_name": "North Korean won",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "vc",
+        "name_en": {
+            "common": "Saint Vincent and the Grenadines",
+            "official": "Saint Vincent and the Grenadines"
+        },
+        "name_ar": {
+            "common": "سانت فنسنت وجزر غرينادين",
+            "official": "سانت فنسنت وجزر غرينادين"
+          },
+        "iso_alpha2": "VC",
+        "iso_alpha3": "VCT",
+        "iso_num": "670",
+        "currency": {
+            "XCD": {
+                "iso_4217_code": "XCD",
+                "iso_4217_numeric": 951,
+                "iso_4217_name": "East Caribbean Dollar",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "ve",
+        "name_en": {
+            "common": "Venezuela",
+            "official": "Bolivarian Republic of Venezuela"
+        },
+        "name_ar": {
+            "common": "فنزويلا (جمهورية - البوليفارية)",
+            "official": "جمهورية فنزويلا البوليفارية"
+          },
+        "iso_alpha2": "VE",
+        "iso_alpha3": "VEN",
+        "iso_num": "862",
+        "currency": {
+            "VES": {
+                "iso_4217_code": "VES",
+                "iso_4217_numeric": 928,
+                "iso_4217_name": "Venezuelan bolívar soberano",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "ai",
+        "name_en": {
+            "common": "Anguilla",
+            "official": "Anguilla"
+        },
+        "iso_alpha2": "AI",
+        "iso_alpha3": "AIA",
+        "iso_num": "660",
+        "currency": {
+            "XCD": {
+                "iso_4217_code": "XCD",
+                "iso_4217_numeric": 951,
+                "iso_4217_name": "East Caribbean Dollar",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+
+    {
+        "code": "aq",
+        "name_en": {
+            "common": "Antarctica",
+            "official": "Antarctica"
+        },
+        "iso_alpha2": "AQ",
+        "iso_alpha3": "ATA",
+        "iso_num": "010",
+        "currency": []
+    },
+
+    {
+        "code": "aw",
+        "name_en": {
+            "common": "Aruba",
+            "official": "Aruba"
+        },
+        "iso_alpha2": "AW",
+        "iso_alpha3": "ABW",
+        "iso_num": "533",
+        "currency": {
+            "AWG": {
+                "iso_4217_code": "AWG",
+                "iso_4217_numeric": 533,
+                "iso_4217_name": "Aruban Florin",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "ax",
+        "name_en": {
+            "common": "Åland Islands",
+            "official": "Åland Islands"
+        },
+        "iso_alpha2": "AX",
+        "iso_alpha3": "ALA",
+        "iso_num": "248",
+        "currency": {
+            "EUR": {
+                "iso_4217_code": "EUR",
+                "iso_4217_numeric": 978,
+                "iso_4217_name": "Euro",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+
+    {
+        "code": "bm",
+        "name_en": {
+            "common": "Bermuda",
+            "official": "Bermuda"
+        },
+        "iso_alpha2": "BM",
+        "iso_alpha3": "BMU",
+        "iso_num": "060",
+        "currency": {
+            "BMD": {
+                "iso_4217_code": "BMD",
+                "iso_4217_numeric": 60,
+                "iso_4217_name": "Bermudian Dollar",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+
+    {
+        "code": "bq",
+        "name_en": {
+            "common": "Caribbean Netherlands",
+            "official": "Bonaire, Sint Eustatius and Saba"
+        },
+        "iso_alpha2": "BQ",
+        "iso_alpha3": "BES",
+        "iso_num": "535",
+        "currency": {
+            "USD": {
+                "iso_4217_code": "USD",
+                "iso_4217_numeric": 840,
+                "iso_4217_name": "US Dollar",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+
+    {
+        "code": "bv",
+        "name_en": {
+            "common": "Bouvet Island",
+            "official": "Bouvet Island"
+        },
+        "iso_alpha2": "BV",
+        "iso_alpha3": "BVT",
+        "iso_num": "074",
+        "currency": {
+            "NOK": {
+                "iso_4217_code": "NOK",
+                "iso_4217_numeric": 578,
+                "iso_4217_name": "Norwegian krone",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+
+    {
+        "code": "cc",
+        "name_en": {
+            "common": "Cocos (Keeling) Islands",
+            "official": "Territory of the Cocos (Keeling) Islands"
+        },
+        "iso_alpha2": "CC",
+        "iso_alpha3": "CCK",
+        "iso_num": "166",
+        "currency": {
+            "AUD": {
+                "iso_4217_code": "AUD",
+                "iso_4217_numeric": "036",
+                "iso_4217_name": "Australian dollar",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+
+    {
+        "code": "ci",
+        "name_en": {
+            "common": "Ivory Coast",
+            "official": "Republic of Côte d'Ivoire"
+        },
+        "name_ar": {
+            "common": "كوت ديفوار",
+            "official": "جمهورية كوت ديفوار"
+          },
+        "iso_alpha2": "CI",
+        "iso_alpha3": "CIV",
+        "iso_num": "384",
+        "currency": {
+            "XOF": {
+                "iso_4217_code": "XOF",
+                "iso_4217_numeric": 952,
+                "iso_4217_name": "CFA Franc BCEAO",
+                "iso_4217_minor_unit": 0
+            }
+        }
+    },
+
+    {
+        "code": "cw",
+        "name_en": {
+            "common": "Curaçao",
+            "official": "Country of Curaçao"
+        },
+        "iso_alpha2": "CW",
+        "iso_alpha3": "CUW",
+        "iso_num": "531",
+        "currency": {
+            "ANG": {
+                "iso_4217_code": "ANG",
+                "iso_4217_numeric": 532,
+                "iso_4217_name": "Netherlands Antillean Guilder",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "cx",
+        "name_en": {
+            "common": "Christmas Island",
+            "official": "Territory of Christmas Island"
+        },
+        "iso_alpha2": "CX",
+        "iso_alpha3": "CXR",
+        "iso_num": "162",
+        "currency": {
+            "AUD": {
+                "iso_4217_code": "AUD",
+                "iso_4217_numeric": "036",
+                "iso_4217_name": "Australian dollar",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+
+    {
+        "code": "do",
+        "name_en": {
+            "common": "Dominican Republic",
+            "official": "Dominican Republic"
+        },
+        "name_ar": {
+            "common": "الجمهورية الدومينيكية",
+            "official": "الجمهورية الدومينيكية"
+          },
+        "iso_alpha2": "DO",
+        "iso_alpha3": "DOM",
+        "iso_num": "214",
+        "currency": {
+            "DOP": {
+                "iso_4217_code": "DOP",
+                "iso_4217_numeric": 214,
+                "iso_4217_name": "Dominican Peso",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+
+    {
+        "code": "eh",
+        "name_en": {
+            "common": "Western Sahara",
+            "official": "Sahrawi Arab Democratic Republic"
+        },
+        "iso_alpha2": "EH",
+        "iso_alpha3": "ESH",
+        "iso_num": "732",
+        "currency": {
+            "MAD": {
+                "iso_4217_code": "MAD",
+                "iso_4217_numeric": 504,
+                "iso_4217_name": "Moroccan Dirham",
+                "iso_4217_minor_unit": 2
+            },
+            "DZD": {
+                "iso_4217_code": "DZD",
+                "iso_4217_numeric": "012",
+                "iso_4217_name": "Algerian dinar",
+                "iso_4217_minor_unit": 2
+            },
+            "MRO": {
+                "iso_4217_code": "MRO",
+                "iso_4217_numeric": 478,
+                "iso_4217_name": "Mauritanian ouguiya",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+
+    {
+        "code": "fk",
+        "name_en": {
+            "common": "Falkland Islands",
+            "official": "Falkland Islands"
+        },
+
+        "iso_alpha2": "FK",
+        "iso_alpha3": "FLK",
+        "iso_num": "238",
+        "currency": {
+            "FKP": {
+                "iso_4217_code": "FKP",
+                "iso_4217_numeric": 238,
+                "iso_4217_name": "Falkland Islands Pound",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+
+    {
+        "code": "fo",
+        "name_en": {
+            "common": "Faroe Islands",
+            "official": "Faroe Islands"
+        },
+        "iso_alpha2": "FO",
+        "iso_alpha3": "FRO",
+        "iso_num": "234",
+        "currency": {
+            "DKK": {
+                "iso_4217_code": "DKK",
+                "iso_4217_numeric": 208,
+                "iso_4217_name": "Danish Krone",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+
+    {
+        "code": "gf",
+        "name_en": {
+            "common": "French Guiana",
+            "official": "Guiana"
+        },
+        "iso_alpha2": "GF",
+        "iso_alpha3": "GUF",
+        "iso_num": "254",
+        "currency": {
+            "EUR": {
+                "iso_4217_code": "EUR",
+                "iso_4217_numeric": 978,
+                "iso_4217_name": "Euro",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "gg",
+        "name_en": {
+            "common": "Guernsey",
+            "official": "Bailiwick of Guernsey"
+        },
+        "iso_alpha2": "GG",
+        "iso_alpha3": "GGY",
+        "iso_num": "831",
+        "currency": {
+            "GBP": {
+                "iso_4217_code": "GBP",
+                "iso_4217_numeric": 826,
+                "iso_4217_name": "Pound Sterling",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+
+    {
+        "code": "gi",
+        "name_en": {
+            "common": "Gibraltar",
+            "official": "Gibraltar"
+        },
+        "iso_alpha2": "GI",
+        "iso_alpha3": "GIB",
+        "iso_num": "292",
+        "currency": {
+            "GIP": {
+                "iso_4217_code": "GIP",
+                "iso_4217_numeric": 292,
+                "iso_4217_name": "Gibraltar Pound",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "gl",
+        "name_en": {
+            "common": "Greenland",
+            "official": "Greenland"
+        },
+        "iso_alpha2": "GL",
+        "iso_alpha3": "GRL",
+        "iso_num": "304",
+        "currency": {
+            "DKK": {
+                "iso_4217_code": "DKK",
+                "iso_4217_numeric": 208,
+                "iso_4217_name": "Danish Krone",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+
+    {
+        "code": "gn",
+        "name_en": {
+            "common": "Guinea",
+            "official": "Republic of Guinea"
+        },
+        "name_ar": {
+            "common": "غينيا",
+            "official": "جمهورية غينيا"
+          },
+        "iso_alpha2": "GN",
+        "iso_alpha3": "GIN",
+        "iso_num": "324",
+        "currency": {
+            "GNF": {
+                "iso_4217_code": "GNF",
+                "iso_4217_numeric": 324,
+                "iso_4217_name": "Guinea Franc",
+                "iso_4217_minor_unit": 0
+            }
+        }
+    },
+    {
+        "code": "gp",
+        "name_en": {
+            "common": "Guadeloupe",
+            "official": "Guadeloupe"
+        },
+        "iso_alpha2": "GP",
+        "iso_alpha3": "GLP",
+        "iso_num": "312",
+        "currency": {
+            "EUR": {
+                "iso_4217_code": "EUR",
+                "iso_4217_numeric": 978,
+                "iso_4217_name": "Euro",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "gq",
+        "name_en": {
+            "common": "Equatorial Guinea",
+            "official": "Republic of Equatorial Guinea"
+        },
+        "name_ar": {
+            "common": "غينيا الاستوائية",
+            "official": "جمهورية غينيا الاستوائية"
+          },
+        "iso_alpha2": "GQ",
+        "iso_alpha3": "GNQ",
+        "iso_num": "226",
+        "currency": {
+            "XAF": {
+                "iso_4217_code": "XAF",
+                "iso_4217_numeric": 950,
+                "iso_4217_name": "CFA Franc BEAC",
+                "iso_4217_minor_unit": 0
+            }
+        }
+    },
+    {
+        "code": "gr",
+        "name_en": {
+            "common": "Greece",
+            "official": "Hellenic Republic"
+        },
+        "name_ar": {
+            "common": "اليونان",
+            "official": "الجمهورية الهيلينية"
+          },
+        "iso_alpha2": "GR",
+        "iso_alpha3": "GRC",
+        "iso_num": "300",
+        "currency": {
+            "EUR": {
+                "iso_4217_code": "EUR",
+                "iso_4217_numeric": 978,
+                "iso_4217_name": "Euro",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "gs",
+        "name_en": {
+            "common": "South Georgia",
+            "official": "South Georgia and the South Sandwich Islands"
+        },
+        "iso_alpha2": "GS",
+        "iso_alpha3": "SGS",
+        "iso_num": "239",
+        "currency": {
+            "GBP": {
+                "iso_4217_code": "GBP",
+                "iso_4217_numeric": 826,
+                "iso_4217_name": "Pound sterling",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "gt",
+        "name_en": {
+            "common": "Guatemala",
+            "official": "Republic of Guatemala"
+        },
+        "name_ar": {
+            "common": "غواتيمالا",
+            "official": "جمهورية غواتيمالا"
+          },
+        "iso_alpha2": "GT",
+        "iso_alpha3": "GTM",
+        "iso_num": "320",
+        "currency": {
+            "GTQ": {
+                "iso_4217_code": "GTQ",
+                "iso_4217_numeric": 320,
+                "iso_4217_name": "Quetzal",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "gu",
+        "name_en": {
+            "common": "Guam",
+            "official": "Guam"
+        },
+        "iso_alpha2": "GU",
+        "iso_alpha3": "GUM",
+        "iso_num": "316",
+        "currency": {
+            "USD": {
+                "iso_4217_code": "USD",
+                "iso_4217_numeric": 840,
+                "iso_4217_name": "US Dollar",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "gw",
+        "name_en": {
+            "common": "Guinea-Bissau",
+            "official": "Republic of Guinea-Bissau"
+        },
+        "name_ar": {
+            "common": "غينيا - بيساو",
+            "official": "جمهورية غينيا - بيساو"
+          },
+        "iso_alpha2": "GW",
+        "iso_alpha3": "GNB",
+        "iso_num": "624",
+        "currency": {
+            "XOF": {
+                "iso_4217_code": "XOF",
+                "iso_4217_numeric": 952,
+                "iso_4217_name": "CFA Franc BCEAO",
+                "iso_4217_minor_unit": 0
+            }
+        }
+    },
+    {
+        "code": "gy",
+        "name_en": {
+            "common": "Guyana",
+            "official": "Co-operative Republic of Guyana"
+        },
+        "name_ar": {
+            "common": "غيانا",
+            "official": "جمهورية غيانا التعاونية"
+          },
+        "iso_alpha2": "GY",
+        "iso_alpha3": "GUY",
+        "iso_num": "328",
+        "currency": {
+            "GYD": {
+                "iso_4217_code": "GYD",
+                "iso_4217_numeric": 328,
+                "iso_4217_name": "Guyana Dollar",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "hk",
+        "name_en": {
+            "common": "Hong Kong",
+            "official": "Hong Kong Special Administrative Region of the People's Republic of China"
+        },
+        "iso_alpha2": "HK",
+        "iso_alpha3": "HKG",
+        "iso_num": "344",
+        "currency": {
+            "HKD": {
+                "iso_4217_code": "HKD",
+                "iso_4217_numeric": 344,
+                "iso_4217_name": "Hong Kong dollar",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "hm",
+        "name_en": {
+            "common": "Heard Island and McDonald Islands",
+            "official": "Heard Island and McDonald Islands"
+        },
+        "iso_alpha2": "HM",
+        "iso_alpha3": "HMD",
+        "iso_num": "334",
+        "currency": {
+            "AUD": {
+                "iso_4217_code": "AUD",
+                "iso_4217_numeric": 36,
+                "iso_4217_name": "Australian Dollar",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "hn",
+        "name_en": {
+            "common": "Honduras",
+            "official": "Republic of Honduras"
+        },
+        "name_ar": {
+            "common": "هندوراس",
+            "official": "جمهورية هندوراس"
+          },
+        "iso_alpha2": "HN",
+        "iso_alpha3": "HND",
+        "iso_num": "340",
+        "currency": {
+            "HNL": {
+                "iso_4217_code": "HNL",
+                "iso_4217_numeric": 340,
+                "iso_4217_name": "Lempira",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "hr",
+        "name_en": {
+            "common": "Croatia",
+            "official": "Republic of Croatia"
+        },
+        "name_ar": {
+            "common": "كرواتيا",
+            "official": "جمهورية كرواتيا"
+          },
+        "iso_alpha2": "HR",
+        "iso_alpha3": "HRV",
+        "iso_num": "191",
+        "currency": {
+            "HRK": {
+                "iso_4217_code": "HRK",
+                "iso_4217_numeric": 191,
+                "iso_4217_name": "Croatian Kuna",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "ht",
+        "name_en": {
+            "common": "Haiti",
+            "official": "Republic of Haiti"
+        },
+        "name_ar": {
+            "common": "هايتي",
+            "official": "جمهورية هايتي"
+          },
+        "iso_alpha2": "HT",
+        "iso_alpha3": "HTI",
+        "iso_num": "332",
+        "currency": {
+            "HTG": {
+                "iso_4217_code": "HTG",
+                "iso_4217_numeric": 332,
+                "iso_4217_name": "Haitian gourde",
+                "iso_4217_minor_unit": 2
+            },
+            "USD": {
+                "iso_4217_code": "USD",
+                "iso_4217_numeric": 840,
+                "iso_4217_name": "US Dollar",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "hu",
+        "name_en": {
+            "common": "Hungary",
+            "official": "Hungary"
+        },
+        "name_ar": {
+            "common": "هنغاريا",
+            "official": "هنغاريا"
+          },
+        "iso_alpha2": "HU",
+        "iso_alpha3": "HUN",
+        "iso_num": "348",
+        "currency": {
+            "HUF": {
+                "iso_4217_code": "HUF",
+                "iso_4217_numeric": 348,
+                "iso_4217_name": "Forint",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "id",
+        "name_en": {
+            "common": "Indonesia",
+            "official": "Republic of Indonesia"
+        },
+        "name_ar": {
+            "common": "إندونيسيا",
+            "official": "جمهورية إندونيسيا"
+          },
+        "iso_alpha2": "ID",
+        "iso_alpha3": "IDN",
+        "iso_num": "360",
+        "currency": {
+            "IDR": {
+                "iso_4217_code": "IDR",
+                "iso_4217_numeric": 360,
+                "iso_4217_name": "Rupiah",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "ie",
+        "name_en": {
+            "common": "Ireland",
+            "official": "Republic of Ireland"
+        },
+        "name_ar": {
+            "common": "أيرلندا",
+            "official": "أيرلندا"
+          },
+        "iso_alpha2": "IE",
+        "iso_alpha3": "IRL",
+        "iso_num": "372",
+        "currency": {
+            "EUR": {
+                "iso_4217_code": "EUR",
+                "iso_4217_numeric": 978,
+                "iso_4217_name": "Euro",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "il",
+        "name_en": {
+            "common": "Israel",
+            "official": "State of Israel"
+        },
+        "name_ar": {
+            "common": "إسرائيل",
+            "official": "دولة إسرائيل"
+          },
+        "iso_alpha2": "IL",
+        "iso_alpha3": "ISR",
+        "iso_num": "376",
+        "currency": {
+            "ILS": {
+                "iso_4217_code": "ILS",
+                "iso_4217_numeric": 376,
+                "iso_4217_name": "New Israeli Sheqel",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "im",
+        "name_en": {
+            "common": "Isle of Man",
+            "official": "Isle of Man"
+        },
+        "iso_alpha2": "IM",
+        "iso_alpha3": "IMN",
+        "iso_num": "833",
+        "currency": {
+            "GBP": {
+                "iso_4217_code": "GBP",
+                "iso_4217_numeric": 826,
+                "iso_4217_name": "Pound Sterling",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "in",
+        "name_en": {
+            "common": "India",
+            "official": "Republic of India"
+        },
+        "name_ar": {
+            "common": "الهند",
+            "official": "جمهورية الهند"
+          },
+        "iso_alpha2": "IN",
+        "iso_alpha3": "IND",
+        "iso_num": "356",
+        "currency": {
+            "INR": {
+                "iso_4217_code": "INR",
+                "iso_4217_numeric": 356,
+                "iso_4217_name": "Indian Rupee",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "io",
+        "name_en": {
+            "common": "British Indian Ocean Territory",
+            "official": "British Indian Ocean Territory"
+        },
+        "iso_alpha2": "IO",
+        "iso_alpha3": "IOT",
+        "iso_num": "086",
+        "currency": {
+            "GBP": {
+                "iso_4217_code": "GBP",
+                "iso_4217_numeric": 826,
+                "iso_4217_name": "Pound Sterling",
+                "iso_4217_minor_unit": 2
+            },
+            "USD": {
+                "iso_4217_code": "USD",
+                "iso_4217_numeric": 840,
+                "iso_4217_name": "US Dollar",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "iq",
+        "name_en": {
+            "common": "Iraq",
+            "official": "Republic of Iraq"
+        },
+        "name_ar": {
+            "common": "العراق",
+            "official": "جمهورية العراق"
+          },
+        "iso_alpha2": "IQ",
+        "iso_alpha3": "IRQ",
+        "iso_num": "368",
+        "currency": {
+            "IQD": {
+                "iso_4217_code": "IQD",
+                "iso_4217_numeric": 368,
+                "iso_4217_name": "Iraqi Dinar",
+                "iso_4217_minor_unit": 3
+            }
+        }
+    },
+    {
+        "code": "ir",
+        "name_en": {
+            "common": "Iran",
+            "official": "Islamic Republic of Iran"
+        },
+        "name_ar": {
+            "common": "إيران (جمهورية - الإسلامية)",
+            "official": "جمهورية إيران الإسلامية"
+          },
+        "iso_alpha2": "IR",
+        "iso_alpha3": "IRN",
+        "iso_num": "364",
+        "currency": {
+            "IRR": {
+                "iso_4217_code": "IRR",
+                "iso_4217_numeric": 364,
+                "iso_4217_name": "Iranian rial",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "is",
+        "name_en": {
+            "common": "Iceland",
+            "official": "Iceland"
+        },
+        "name_ar": {
+            "common": "آيسلندا",
+            "official": "جمهورية آيسلندا"
+          },
+        "iso_alpha2": "IS",
+        "iso_alpha3": "ISL",
+        "iso_num": "352",
+        "currency": {
+            "ISK": {
+                "iso_4217_code": "ISK",
+                "iso_4217_numeric": 352,
+                "iso_4217_name": "Iceland Krona",
+                "iso_4217_minor_unit": 0
+            }
+        }
+    },
+    {
+        "code": "it",
+        "name_en": {
+            "common": "Italy",
+            "official": "Italian Republic"
+        },
+        "name_ar": {
+            "common": "إيطاليا",
+            "official": "جمهورية إيطاليا"
+          },
+        "iso_alpha2": "IT",
+        "iso_alpha3": "ITA",
+        "iso_num": "380",
+        "currency": {
+            "EUR": {
+                "iso_4217_code": "EUR",
+                "iso_4217_numeric": 978,
+                "iso_4217_name": "Euro",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "je",
+        "name_en": {
+            "common": "Jersey",
+            "official": "Bailiwick of Jersey"
+        },
+        "iso_alpha2": "JE",
+        "iso_alpha3": "JEY",
+        "iso_num": "832",
+        "currency": {
+            "GBP": {
+                "iso_4217_code": "GBP",
+                "iso_4217_numeric": 826,
+                "iso_4217_name": "Pound Sterling",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "jm",
+        "name_en": {
+            "common": "Jamaica",
+            "official": "Jamaica"
+        },
+        "name_ar": {
+            "common": "جامايكا",
+            "official": "جامايكا"
+          },
+        "iso_alpha2": "JM",
+        "iso_alpha3": "JAM",
+        "iso_num": "388",
+        "currency": {
+            "JMD": {
+                "iso_4217_code": "JMD",
+                "iso_4217_numeric": 388,
+                "iso_4217_name": "Jamaican Dollar",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "jo",
+        "name_en": {
+            "common": "Jordan",
+            "official": "Hashemite Kingdom of Jordan"
+        },
+        "name_ar": {
+            "common": "الأردن",
+            "official": "المملكة الأردنية الهاشمية"
+          },
+        "iso_alpha2": "JO",
+        "iso_alpha3": "JOR",
+        "iso_num": "400",
+        "currency": {
+            "JOD": {
+                "iso_4217_code": "JOD",
+                "iso_4217_numeric": 400,
+                "iso_4217_name": "Jordanian Dinar",
+                "iso_4217_minor_unit": 3
+            }
+        }
+    },
+    {
+        "code": "jp",
+        "name_en": {
+            "common": "Japan",
+            "official": "Japan"
+        },
+        "name_ar": {
+            "common": "اليابان",
+            "official": "اليابان"
+          },
+        "iso_alpha2": "JP",
+        "iso_alpha3": "JPN",
+        "iso_num": "392",
+        "currency": {
+            "JPY": {
+                "iso_4217_code": "JPY",
+                "iso_4217_numeric": 392,
+                "iso_4217_name": "Yen",
+                "iso_4217_minor_unit": 0
+            }
+        }
+    },
+    {
+        "code": "ke",
+        "name_en": {
+            "common": "Kenya",
+            "official": "Republic of Kenya"
+        },
+        "name_ar": {
+            "common": "كينيا",
+            "official": "جمهورية كينيا"
+          },
+        "iso_alpha2": "KE",
+        "iso_alpha3": "KEN",
+        "iso_num": "404",
+        "currency": {
+            "KES": {
+                "iso_4217_code": "KES",
+                "iso_4217_numeric": 404,
+                "iso_4217_name": "Kenyan Shilling",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "kg",
+        "name_en": {
+            "common": "Kyrgyzstan",
+            "official": "Kyrgyz Republic"
+        },
+        "name_ar": {
+            "common": "قيرغيزستان",
+            "official": "جمهورية قيرغيزستان"
+          },
+        "iso_alpha2": "KG",
+        "iso_alpha3": "KGZ",
+        "iso_num": "417",
+        "currency": {
+            "KGS": {
+                "iso_4217_code": "KGS",
+                "iso_4217_numeric": 417,
+                "iso_4217_name": "Som",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+
+
+
+
+    {
+        "code": "kn",
+        "name_en": {
+            "common": "Saint Kitts and Nevis",
+            "official": "Federation of Saint Christopher and Nevisa"
+        },
+        "iso_alpha2": "KN",
+        "iso_alpha3": "KNA",
+        "iso_num": "659",
+        "currency": {
+            "XCD": {
+                "iso_4217_code": "XCD",
+                "iso_4217_numeric": 951,
+                "iso_4217_name": "East Caribbean Dollar",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+
+    {
+        "code": "kr",
+        "name_en": {
+            "common": "South Korea",
+            "official": "Republic of Korea"
+        },
+        "iso_alpha2": "KR",
+        "iso_alpha3": "KOR",
+        "iso_num": "410",
+        "currency": {
+            "KRW": {
+                "iso_4217_code": "KRW",
+                "iso_4217_numeric": 410,
+                "iso_4217_name": "South Korean won",
+                "iso_4217_minor_unit": 0
+            }
+        }
+    },
+    {
+        "code": "kw",
+        "name_en": {
+            "common": "Kuwait",
+            "official": "State of Kuwait"
+        },
+        "name_ar": {
+            "common": "الكويت",
+            "official": "دولة الكويت"
+          },
+        "iso_alpha2": "KW",
+        "iso_alpha3": "KWT",
+        "iso_num": "414",
+        "currency": {
+            "KWD": {
+                "iso_4217_code": "KWD",
+                "iso_4217_numeric": 414,
+                "iso_4217_name": "Kuwaiti Dinar",
+                "iso_4217_minor_unit": 3
+            }
+        }
+    },
+    {
+        "code": "ky",
+        "name_en": {
+            "common": "Cayman Islands",
+            "official": "Cayman Islands"
+        },
+        "iso_alpha2": "KY",
+        "iso_alpha3": "CYM",
+        "iso_num": "136",
+        "currency": {
+            "KYD": {
+                "iso_4217_code": "KYD",
+                "iso_4217_numeric": 136,
+                "iso_4217_name": "Cayman Islands Dollar",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "kz",
+        "name_en": {
+            "common": "Kazakhstan",
+            "official": "Republic of Kazakhstan"
+        },
+        "name_ar": {
+            "common": "كازاخستان",
+            "official": "جمهورية كازاخستان"
+          },
+        "iso_alpha2": "KZ",
+        "iso_alpha3": "KAZ",
+        "iso_num": "398",
+        "currency": {
+            "KZT": {
+                "iso_4217_code": "KZT",
+                "iso_4217_numeric": 398,
+                "iso_4217_name": "Tenge",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "la",
+        "name_en": {
+            "common": "Laos",
+            "official": "Lao People's Democratic Republic"
+        },
+        "name_ar": {
+            "common": "جمهورية لاو الديمقراطية الشعبية",
+            "official": "جمهورية لاو الديمقراطية الشعبية"
+          },
+        "iso_alpha2": "LA",
+        "iso_alpha3": "LAO",
+        "iso_num": "418",
+        "currency": {
+            "LAK": {
+                "iso_4217_code": "LAK",
+                "iso_4217_numeric": 418,
+                "iso_4217_name": "Kip",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "lb",
+        "name_en": {
+            "common": "Lebanon",
+            "official": "Lebanese Republic"
+        },
+        "name_ar": {
+            "common": "لبنان",
+            "official": "الجمهورية اللبنانية"
+          },
+        "iso_alpha2": "LB",
+        "iso_alpha3": "LBN",
+        "iso_num": "422",
+        "currency": {
+            "LBP": {
+                "iso_4217_code": "LBP",
+                "iso_4217_numeric": 422,
+                "iso_4217_name": "Lebanese Pound",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "lc",
+        "name_en": {
+            "common": "Saint Lucia",
+            "official": "Saint Lucia"
+        },
+        "name_ar": {
+            "common": "سانت لوسيا",
+            "official": "سانت لوسيا"
+          },
+        "iso_alpha2": "LC",
+        "iso_alpha3": "LCA",
+        "iso_num": "662",
+        "currency": {
+            "XCD": {
+                "iso_4217_code": "XCD",
+                "iso_4217_numeric": 951,
+                "iso_4217_name": "East Caribbean Dollar",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "li",
+        "name_en": {
+            "common": "Liechtenstein",
+            "official": "Principality of Liechtenstein"
+        },
+        "name_ar": {
+            "common": "ليختنشتاين",
+            "official": "إمارة ليختنشتاين"
+          },
+        "iso_alpha2": "LI",
+        "iso_alpha3": "LIE",
+        "iso_num": "438",
+        "currency": {
+            "CHF": {
+                "iso_4217_code": "CHF",
+                "iso_4217_numeric": 756,
+                "iso_4217_name": "Swiss Franc",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "lk",
+        "name_en": {
+            "common": "Sri Lanka",
+            "official": "Democratic Socialist Republic of Sri Lanka"
+        },
+        "name_ar": {
+            "common": "سري لانكا",
+            "official": "جمهورية سري لانكا الاشتراكية الديمقراطية"
+          },
+        "iso_alpha2": "LK",
+        "iso_alpha3": "LKA",
+        "iso_num": "144",
+        "currency": {
+            "LKR": {
+                "iso_4217_code": "LKR",
+                "iso_4217_numeric": 144,
+                "iso_4217_name": "Sri Lanka Rupee",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "lr",
+        "name_en": {
+            "common": "Liberia",
+            "official": "Republic of Liberia"
+        },
+        "name_ar": {
+            "common": "ليبريا",
+            "official": "جمهورية ليبريا"
+          },
+        "iso_alpha2": "LR",
+        "iso_alpha3": "LBR",
+        "iso_num": "430",
+        "currency": {
+            "LRD": {
+                "iso_4217_code": "LRD",
+                "iso_4217_numeric": 430,
+                "iso_4217_name": "Liberian Dollar",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "ls",
+        "name_en": {
+            "common": "Lesotho",
+            "official": "Kingdom of Lesotho"
+        },
+        "name_ar": {
+            "common": "ليسوتو",
+            "official": "مملكة ليسوتو"
+          },
+        "iso_alpha2": "LS",
+        "iso_alpha3": "LSO",
+        "iso_num": "426",
+        "currency": {
+            "LSL": {
+                "iso_4217_code": "LSL",
+                "iso_4217_numeric": 426,
+                "iso_4217_name": "Lesotho loti",
+                "iso_4217_minor_unit": 2
+            },
+            "ZAR": {
+                "iso_4217_code": "ZAR",
+                "iso_4217_numeric": 710,
+                "iso_4217_name": "Rand",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "lt",
+        "name_en": {
+            "common": "Lithuania",
+            "official": "Republic of Lithuania"
+        },
+        "name_ar": {
+            "common": "ليتوانيا",
+            "official": "جمهورية ليتوانيا"
+          },
+        "iso_alpha2": "LT",
+        "iso_alpha3": "LTU",
+        "iso_num": "440",
+        "currency": {
+            "EUR": {
+                "iso_4217_code": "EUR",
+                "iso_4217_numeric": 978,
+                "iso_4217_name": "Euro",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "lu",
+        "name_en": {
+            "common": "Luxembourg",
+            "official": "Grand Duchy of Luxembourg"
+        },
+        "name_ar": {
+            "common": "لكسمبرغ",
+            "official": "دوقية لكسمبرغ الكبرى"
+          },
+        "iso_alpha2": "LU",
+        "iso_alpha3": "LUX",
+        "iso_num": "442",
+        "currency": {
+            "EUR": {
+                "iso_4217_code": "EUR",
+                "iso_4217_numeric": 978,
+                "iso_4217_name": "Euro",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "lv",
+        "name_en": {
+            "common": "Latvia",
+            "official": "Republic of Latvia"
+        },
+        "name_ar": {
+            "common": "لاتفيا",
+            "official": "جمهورية لاتفيا"
+          },
+        "iso_alpha2": "LV",
+        "iso_alpha3": "LVA",
+        "iso_num": "428",
+        "currency": {
+            "EUR": {
+                "iso_4217_code": "EUR",
+                "iso_4217_numeric": 978,
+                "iso_4217_name": "Euro",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "ly",
+        "name_en": {
+            "common": "Libya",
+            "official": "State of Libya"
+        },
+        "name_ar": {
+            "common": "ليبيا",
+            "official": "دولة ليبيا"
+          },
+        "iso_alpha2": "LY",
+        "iso_alpha3": "LBY",
+        "iso_num": "434",
+        "currency": {
+            "LYD": {
+                "iso_4217_code": "LYD",
+                "iso_4217_numeric": 434,
+                "iso_4217_name": "Libyan Dinar",
+                "iso_4217_minor_unit": 3
+            }
+        }
+    },
+    {
+        "code": "ma",
+        "name_en": {
+            "common": "Morocco",
+            "official": "Kingdom of Morocco"
+        },
+        "name_ar": {
+            "common": "المغرب",
+            "official": "المملكة المغربية"
+          },
+        "iso_alpha2": "MA",
+        "iso_alpha3": "MAR",
+        "iso_num": "504",
+        "currency": {
+            "MAD": {
+                "iso_4217_code": "MAD",
+                "iso_4217_numeric": 504,
+                "iso_4217_name": "Moroccan Dirham",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "mc",
+        "name_en": {
+            "common": "Monaco",
+            "official": "Principality of Monaco"
+        },
+        "name_ar": {
+            "common": "موناكو",
+            "official": "إمارة موناكو"
+          },
+        "iso_alpha2": "MC",
+        "iso_alpha3": "MCO",
+        "iso_num": "492",
+        "currency": {
+            "EUR": {
+                "iso_4217_code": "EUR",
+                "iso_4217_numeric": 978,
+                "iso_4217_name": "Euro",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "md",
+        "name_en": {
+            "common": "Moldova",
+            "official": "Republic of Moldova"
+        },
+        "name_ar": {
+            "common": "جمهورية مولدوفا",
+            "official": "جمهورية مولدوفا"
+          },
+        "iso_alpha2": "MD",
+        "iso_alpha3": "MDA",
+        "iso_num": "498",
+        "currency": {
+            "MDL": {
+                "iso_4217_code": "MDL",
+                "iso_4217_numeric": 498,
+                "iso_4217_name": "Moldovan leu",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "me",
+        "name_en": {
+            "common": "Montenegro",
+            "official": "Montenegro"
+        },
+        "name_ar": {
+            "common": "الجبل الأسود",
+            "official": "الجبل الأسود"
+          },
+        "iso_alpha2": "ME",
+        "iso_alpha3": "MNE",
+        "iso_num": "499",
+        "currency": {
+            "EUR": {
+                "iso_4217_code": "EUR",
+                "iso_4217_numeric": 978,
+                "iso_4217_name": "Euro",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "mf",
+        "name_en": {
+            "common": "Saint Martin",
+            "official": "Saint Martin"
+        },
+        "iso_alpha2": "MF",
+        "iso_alpha3": "MAF",
+        "iso_num": "663",
+        "currency": {
+            "EUR": {
+                "iso_4217_code": "EUR",
+                "iso_4217_numeric": 978,
+                "iso_4217_name": "Euro",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "mg",
+        "name_en": {
+            "common": "Madagascar",
+            "official": "Republic of Madagascar"
+        },
+        "name_ar": {
+            "common": "مدغشقر",
+            "official": "جمهورية مدغشقر"
+          },
+        "iso_alpha2": "MG",
+        "iso_alpha3": "MDG",
+        "iso_num": "450",
+        "currency": {
+            "MGA": {
+                "iso_4217_code": "MGA",
+                "iso_4217_numeric": 969,
+                "iso_4217_name": "Malagasy Ariary",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "mh",
+        "name_en": {
+            "common": "Marshall Islands",
+            "official": "Republic of the Marshall Islands"
+        },
+        "name_ar": {
+            "common": "جزر مارشال",
+            "official": "جمهورية جزر مارشال"
+          },
+        "iso_alpha2": "MH",
+        "iso_alpha3": "MHL",
+        "iso_num": "584",
+        "currency": {
+            "USD": {
+                "iso_4217_code": "USD",
+                "iso_4217_numeric": 840,
+                "iso_4217_name": "US Dollar",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "mk",
+        "name_en": {
+            "common": "Macedonia",
+            "official": "Republic of Macedonia"
+        },
+        "name_ar": {
+            "common": "مقدونيا ",
+            "official": "جمهورية مقدونيا "
+          },
+        "iso_alpha2": "MK",
+        "iso_alpha3": "MKD",
+        "iso_num": "807",
+        "currency": {
+            "MKD": {
+                "iso_4217_code": "MKD",
+                "iso_4217_numeric": 807,
+                "iso_4217_name": "Macedonian denar",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "ml",
+        "name_en": {
+            "common": "Mali",
+            "official": "Republic of Mali"
+        },
+        "name_ar": {
+            "common": "مالي",
+            "official": "جمهورية مالي"
+          },
+        "iso_alpha2": "ML",
+        "iso_alpha3": "MLI",
+        "iso_num": "466",
+        "currency": {
+            "XOF": {
+                "iso_4217_code": "XOF",
+                "iso_4217_numeric": 952,
+                "iso_4217_name": "CFA Franc BCEAO",
+                "iso_4217_minor_unit": 0
+            }
+        }
+    },
+    {
+        "code": "mm",
+        "name_en": {
+            "common": "Myanmar",
+            "official": "Republic of the Union of Myanmar"
+        },
+        "name_ar": {
+            "common": "ميانمار",
+            "official": "جمهورية اتحاد ميانمار"
+          },
+        "iso_alpha2": "MM",
+        "iso_alpha3": "MMR",
+        "iso_num": "104",
+        "currency": {
+            "MMK": {
+                "iso_4217_code": "MMK",
+                "iso_4217_numeric": 104,
+                "iso_4217_name": "Kyat",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "mn",
+        "name_en": {
+            "common": "Mongolia",
+            "official": "Mongolia"
+        },
+        "name_ar": {
+            "common": "منغوليا",
+            "official": "منغوليا"
+          },
+        "iso_alpha2": "MN",
+        "iso_alpha3": "MNG",
+        "iso_num": "496",
+        "currency": {
+            "MNT": {
+                "iso_4217_code": "MNT",
+                "iso_4217_numeric": 496,
+                "iso_4217_name": "Tugrik",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "mo",
+        "name_en": {
+            "common": "Macau",
+            "official": "Macao Special Administrative Region of the People's Republic of China"
+        },
+        "iso_alpha2": "MO",
+        "iso_alpha3": "MAC",
+        "iso_num": "446",
+        "currency": {
+            "MOP": {
+                "iso_4217_code": "MOP",
+                "iso_4217_numeric": 446,
+                "iso_4217_name": "Macanese pataca",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "mp",
+        "name_en": {
+            "common": "Northern Mariana Islands",
+            "official": "Commonwealth of the Northern Mariana Islands"
+        },
+        "iso_alpha2": "MP",
+        "iso_alpha3": "MNP",
+        "iso_num": "580",
+        "currency": {
+            "USD": {
+                "iso_4217_code": "USD",
+                "iso_4217_numeric": 840,
+                "iso_4217_name": "US Dollar",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "mq",
+        "name_en": {
+            "common": "Martinique",
+            "official": "Martinique"
+        },
+        "iso_alpha2": "MQ",
+        "iso_alpha3": "MTQ",
+        "iso_num": "474",
+        "currency": {
+            "EUR": {
+                "iso_4217_code": "EUR",
+                "iso_4217_numeric": 978,
+                "iso_4217_name": "Euro",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "mr",
+        "name_en": {
+            "common": "Mauritania",
+            "official": "Islamic Republic of Mauritania"
+        },
+        "name_ar": {
+            "common": "موريتانيا",
+            "official": "الجمهورية الإسلامية الموريتانية"
+          },
+        "iso_alpha2": "MR",
+        "iso_alpha3": "MRT",
+        "iso_num": "478",
+        "currency": {
+            "MRO": {
+                "iso_4217_code": "MRO",
+                "iso_4217_numeric": 478,
+                "iso_4217_name": "Ouguiya",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "ms",
+        "name_en": {
+            "common": "Montserrat",
+            "official": "Montserrat"
+        },
+        "iso_alpha2": "MS",
+        "iso_alpha3": "MSR",
+        "iso_num": "500",
+        "currency": {
+            "XCD": {
+                "iso_4217_code": "XCD",
+                "iso_4217_numeric": 951,
+                "iso_4217_name": "East Caribbean Dollar",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "mt",
+        "name_en": {
+            "common": "Malta",
+            "official": "Republic of Malta"
+        },
+        "name_ar": {
+            "common": "مالطة",
+            "official": "جمهورية مالطة"
+          },
+        "iso_alpha2": "MT",
+        "iso_alpha3": "MLT",
+        "iso_num": "470",
+        "currency": {
+            "EUR": {
+                "iso_4217_code": "EUR",
+                "iso_4217_numeric": 978,
+                "iso_4217_name": "Euro",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "mu",
+        "name_en": {
+            "common": "Mauritius",
+            "official": "Republic of Mauritius"
+        },
+        "name_ar": {
+            "common": "موريشيوس",
+            "official": "جمهورية موريشيوس"
+          },
+        "iso_alpha2": "MU",
+        "iso_alpha3": "MUS",
+        "iso_num": "480",
+        "currency": {
+            "MUR": {
+                "iso_4217_code": "MUR",
+                "iso_4217_numeric": 480,
+                "iso_4217_name": "Mauritius Rupee",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "mv",
+        "name_en": {
+            "common": "Maldives",
+            "official": "Republic of the Maldives"
+        },
+        "name_ar": {
+            "common": "ملديف",
+            "official": "جمهورية ملديف"
+          },
+        "iso_alpha2": "MV",
+        "iso_alpha3": "MDV",
+        "iso_num": "462",
+        "currency": {
+            "MVR": {
+                "iso_4217_code": "MVR",
+                "iso_4217_numeric": 462,
+                "iso_4217_name": "Rufiyaa",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "mw",
+        "name_en": {
+            "common": "Malawi",
+            "official": "Republic of Malawi"
+        },
+        "name_ar": {
+            "common": "ملاوي",
+            "official": "جمهورية ملاوي"
+          },
+        "iso_alpha2": "MW",
+        "iso_alpha3": "MWI",
+        "iso_num": "454",
+        "currency": {
+            "MWK": {
+                "iso_4217_code": "MWK",
+                "iso_4217_numeric": 454,
+                "iso_4217_name": "Kwacha",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "mx",
+        "name_en": {
+            "common": "Mexico",
+            "official": "United Mexican States"
+        },
+        "name_ar": {
+            "common": "المكسيك",
+            "official": "الولايات المتحدة المكسيكية"
+          },
+        "iso_alpha2": "MX",
+        "iso_alpha3": "MEX",
+        "iso_num": "484",
+        "currency": {
+            "MXN": {
+                "iso_4217_code": "MXN",
+                "iso_4217_numeric": 484,
+                "iso_4217_name": "Mexican Peso",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "my",
+        "name_en": {
+            "common": "Malaysia",
+            "official": "Malaysia"
+        },
+        "name_ar": {
+            "common": "ماليزيا",
+            "official": "ماليزيا"
+          },
+        "iso_alpha2": "MY",
+        "iso_alpha3": "MYS",
+        "iso_num": "458",
+        "currency": {
+            "MYR": {
+                "iso_4217_code": "MYR",
+                "iso_4217_numeric": 458,
+                "iso_4217_name": "Malaysian Ringgit",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "mz",
+        "name_en": {
+            "common": "Mozambique",
+            "official": "Republic of Mozambique"
+        },
+        "name_ar": {
+            "common": "موزامبيق",
+            "official": "جمهورية موزامبيق"
+          },
+        "iso_alpha2": "MZ",
+        "iso_alpha3": "MOZ",
+        "iso_num": "508",
+        "currency": {
+            "MZN": {
+                "iso_4217_code": "MZN",
+                "iso_4217_numeric": 943,
+                "iso_4217_name": "Mozambique Metical",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "na",
+        "name_en": {
+            "common": "Namibia",
+            "official": "Republic of Namibia"
+        },
+        "name_ar": {
+            "common": "ناميبيا",
+            "official": "جمهورية ناميبيا"
+          },
+        "iso_alpha2": "NA",
+        "iso_alpha3": "NAM",
+        "iso_num": "516",
+        "currency": {
+            "NAD": {
+                "iso_4217_code": "NAD",
+                "iso_4217_numeric": 516,
+                "iso_4217_name": "Namibian dollar",
+                "iso_4217_minor_unit": 2
+            },
+            "ZAR": {
+                "iso_4217_code": "ZAR",
+                "iso_4217_numeric": 710,
+                "iso_4217_name": "Rand",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "nc",
+        "name_en": {
+            "common": "New Caledonia",
+            "official": "New Caledonia"
+        },
+        "iso_alpha2": "NC",
+        "iso_alpha3": "NCL",
+        "iso_num": "540",
+        "currency": {
+            "XPF": {
+                "iso_4217_code": "XPF",
+                "iso_4217_numeric": 953,
+                "iso_4217_name": "CFP Franc",
+                "iso_4217_minor_unit": 0
+            }
+        }
+    },
+    {
+        "code": "ne",
+        "name_en": {
+            "common": "Niger",
+            "official": "Republic of Niger"
+        },
+        "name_ar": {
+            "common": "النيجر",
+            "official": "جمهورية النيجر"
+          },
+        "iso_alpha2": "NE",
+        "iso_alpha3": "NER",
+        "iso_num": "562",
+        "currency": {
+            "XOF": {
+                "iso_4217_code": "XOF",
+                "iso_4217_numeric": 952,
+                "iso_4217_name": "CFA Franc BCEAO",
+                "iso_4217_minor_unit": 0
+            }
+        }
+    },
+    {
+        "code": "nf",
+        "name_en": {
+            "common": "Norfolk Island",
+            "official": "Territory of Norfolk Island"
+        },
+        "iso_alpha2": "NF",
+        "iso_alpha3": "NFK",
+        "iso_num": "574",
+        "currency": {
+            "AUD": {
+                "iso_4217_code": "AUD",
+                "iso_4217_numeric": 36,
+                "iso_4217_name": "Australian Dollar",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "ng",
+        "name_en": {
+            "common": "Nigeria",
+            "official": "Federal Republic of Nigeria"
+        },
+        "name_ar": {
+            "common": "نيجيريا",
+            "official": "جمهورية نيجيريا الاتحادية"
+          },
+        "iso_alpha2": "NG",
+        "iso_alpha3": "NGA",
+        "iso_num": "566",
+        "currency": {
+            "NGN": {
+                "iso_4217_code": "NGN",
+                "iso_4217_numeric": 566,
+                "iso_4217_name": "Naira",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "ni",
+        "name_en": {
+            "common": "Nicaragua",
+            "official": "Republic of Nicaragua"
+        },
+        "name_ar": {
+            "common": "نيكاراغوا",
+            "official": "جمهورية نيكاراغوا"
+          },
+        "iso_alpha2": "NI",
+        "iso_alpha3": "NIC",
+        "iso_num": "558",
+        "currency": {
+            "NIO": {
+                "iso_4217_code": "NIO",
+                "iso_4217_numeric": 558,
+                "iso_4217_name": "Cordoba Oro",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "nl",
+        "name_en": {
+            "common": "Netherlands",
+            "official": "Netherlands"
+        },
+        "name_ar": {
+            "common": "هولندا",
+            "official": "مملكة هولندا"
+          },
+        "iso_alpha2": "NL",
+        "iso_alpha3": "NLD",
+        "iso_num": "528",
+        "currency": {
+            "EUR": {
+                "iso_4217_code": "EUR",
+                "iso_4217_numeric": 978,
+                "iso_4217_name": "Euro",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "no",
+        "name_en": {
+            "common": "Norway",
+            "official": "Kingdom of Norway"
+        },
+        "name_ar": {
+            "common": "النرويج",
+            "official": "مملكة النرويج"
+          },
+        "iso_alpha2": "NO",
+        "iso_alpha3": "NOR",
+        "iso_num": "578",
+        "currency": {
+            "NOK": {
+                "iso_4217_code": "NOK",
+                "iso_4217_numeric": 578,
+                "iso_4217_name": "Norwegian Krone",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "np",
+        "name_en": {
+            "common": "Nepal",
+            "official": "Federal Democratic Republic of Nepal"
+        },
+        "name_ar": {
+            "common": "نيبال",
+            "official": "نيبال"
+          },
+        "iso_alpha2": "NP",
+        "iso_alpha3": "NPL",
+        "iso_num": "524",
+        "currency": {
+            "NPR": {
+                "iso_4217_code": "NPR",
+                "iso_4217_numeric": 524,
+                "iso_4217_name": "Nepalese Rupee",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "nr",
+        "name_en": {
+            "common": "Nauru",
+            "official": "Republic of Nauru"
+        },
+        "name_ar": {
+            "common": "ناورو",
+            "official": "جمهورية ناورو"
+          },
+        "iso_alpha2": "NR",
+        "iso_alpha3": "NRU",
+        "iso_num": "520",
+        "currency": {
+            "AUD": {
+                "iso_4217_code": "AUD",
+                "iso_4217_numeric": 36,
+                "iso_4217_name": "Australian Dollar",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "nu",
+        "name_en": {
+            "common": "Niue",
+            "official": "Niue"
+        },
+        "name_ar": {
+            "common": "نيوي",
+            "official": "نيوي"
+          },
+        "iso_alpha2": "NU",
+        "iso_alpha3": "NIU",
+        "iso_num": "570",
+        "currency": {
+            "NZD": {
+                "iso_4217_code": "NZD",
+                "iso_4217_numeric": 554,
+                "iso_4217_name": "New Zealand Dollar",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "nz",
+        "name_en": {
+            "common": "New Zealand",
+            "official": "New Zealand"
+        },
+        "name_ar": {
+            "common": "نيوزيلندا",
+            "official": "نيوزيلندا"
+          },
+        "iso_alpha2": "NZ",
+        "iso_alpha3": "NZL",
+        "iso_num": "554",
+        "currency": {
+            "NZD": {
+                "iso_4217_code": "NZD",
+                "iso_4217_numeric": 554,
+                "iso_4217_name": "New Zealand Dollar",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "om",
+        "name_en": {
+            "common": "Oman",
+            "official": "Sultanate of Oman"
+        },
+        "name_ar": {
+            "common": "عمان",
+            "official": "سلطنة عمان"
+          },
+        "iso_alpha2": "OM",
+        "iso_alpha3": "OMN",
+        "iso_num": "512",
+        "currency": {
+            "OMR": {
+                "iso_4217_code": "OMR",
+                "iso_4217_numeric": 512,
+                "iso_4217_name": "Rial Omani",
+                "iso_4217_minor_unit": 3
+            }
+        }
+    },
+    {
+        "code": "pa",
+        "name_en": {
+            "common": "Panama",
+            "official": "Republic of Panama"
+        },
+        "name_ar": {
+            "common": "بنما",
+            "official": "جمهورية بنما"
+          },
+        "iso_alpha2": "PA",
+        "iso_alpha3": "PAN",
+        "iso_num": "591",
+        "currency": {
+            "PAB": {
+                "iso_4217_code": "PAB",
+                "iso_4217_numeric": 590,
+                "iso_4217_name": "Panamanian balboa",
+                "iso_4217_minor_unit": 2
+            },
+            "USD": {
+                "iso_4217_code": "USD",
+                "iso_4217_numeric": 840,
+                "iso_4217_name": "US Dollar",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "pe",
+        "name_en": {
+            "common": "Peru",
+            "official": "Republic of Peru"
+        },
+        "name_ar": {
+            "common": "بيرو",
+            "official": "جمهورية بيرو"
+          },
+        "iso_alpha2": "PE",
+        "iso_alpha3": "PER",
+        "iso_num": "604",
+        "currency": {
+            "PEN": {
+                "iso_4217_code": "PEN",
+                "iso_4217_numeric": 604,
+                "iso_4217_name": "Nuevo Sol",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "pf",
+        "name_en": {
+            "common": "French Polynesia",
+            "official": "French Polynesia"
+        },
+        "iso_alpha2": "PF",
+        "iso_alpha3": "PYF",
+        "iso_num": "258",
+        "currency": {
+            "XPF": {
+                "iso_4217_code": "XPF",
+                "iso_4217_numeric": 953,
+                "iso_4217_name": "CFP Franc",
+                "iso_4217_minor_unit": 0
+            }
+        }
+    },
+    {
+        "code": "pg",
+        "name_en": {
+            "common": "Papua New Guinea",
+            "official": "Independent State of Papua New Guinea"
+        },
+        "name_ar": {
+            "common": "بابوا غينيا الجديدة",
+            "official": "دولة بابوا غينيا الجديدة المستقلة"
+          },
+        "iso_alpha2": "PG",
+        "iso_alpha3": "PNG",
+        "iso_num": "598",
+        "currency": {
+            "PGK": {
+                "iso_4217_code": "PGK",
+                "iso_4217_numeric": 598,
+                "iso_4217_name": "Kina",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "ph",
+        "name_en": {
+            "common": "Philippines",
+            "official": "Republic of the Philippines"
+        },
+        "name_ar": {
+            "common": "الفلبين",
+            "official": "جمهورية الفلبين"
+          },
+        "iso_alpha2": "PH",
+        "iso_alpha3": "PHL",
+        "iso_num": "608",
+        "currency": {
+            "PHP": {
+                "iso_4217_code": "PHP",
+                "iso_4217_numeric": 608,
+                "iso_4217_name": "Philippine Peso",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "pk",
+        "name_en": {
+            "common": "Pakistan",
+            "official": "Islamic Republic of Pakistan"
+        },
+        "name_ar": {
+            "common": "باكستان",
+            "official": "جمهورية باكستان الإسلامية"
+          },
+        "iso_alpha2": "PK",
+        "iso_alpha3": "PAK",
+        "iso_num": "586",
+        "currency": {
+            "PKR": {
+                "iso_4217_code": "PKR",
+                "iso_4217_numeric": 586,
+                "iso_4217_name": "Pakistan Rupee",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "pl",
+        "name_en": {
+            "common": "Poland",
+            "official": "Republic of Poland"
+        },
+        "name_ar": {
+            "common": "بولندا",
+            "official": "جمهورية بولندا"
+          },
+        "iso_alpha2": "PL",
+        "iso_alpha3": "POL",
+        "iso_num": "616",
+        "currency": {
+            "PLN": {
+                "iso_4217_code": "PLN",
+                "iso_4217_numeric": 985,
+                "iso_4217_name": "Zloty",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "pm",
+        "name_en": {
+            "common": "Saint Pierre and Miquelon",
+            "official": "Saint Pierre and Miquelon"
+        },
+        "iso_alpha2": "PM",
+        "iso_alpha3": "SPM",
+        "iso_num": "666",
+        "currency": {
+            "EUR": {
+                "iso_4217_code": "EUR",
+                "iso_4217_numeric": 978,
+                "iso_4217_name": "Euro",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "pn",
+        "name_en": {
+            "common": "Pitcairn Islands",
+            "official": "Pitcairn Group of Islands"
+        },
+        "iso_alpha2": "PN",
+        "iso_alpha3": "PCN",
+        "iso_num": "612",
+        "currency": {
+            "NZD": {
+                "iso_4217_code": "NZD",
+                "iso_4217_numeric": 554,
+                "iso_4217_name": "New Zealand Dollar",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "pr",
+        "name_en": {
+            "common": "Puerto Rico",
+            "official": "Commonwealth of Puerto Rico"
+        },
+        "iso_alpha2": "PR",
+        "iso_alpha3": "PRI",
+        "iso_num": "630",
+        "currency": {
+            "USD": {
+                "iso_4217_code": "USD",
+                "iso_4217_numeric": 840,
+                "iso_4217_name": "US Dollar",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "ps",
+        "name_en": {
+            "common": "Palestine",
+            "official": "State of Palestine"
+        },
+        "name_ar": {
+            "common": "دولة فلسطين",
+            "official": "دولة فلسطين"
+          },
+        "iso_alpha2": "PS",
+        "iso_alpha3": "PSE",
+        "iso_num": "275",
+        "currency": {
+            "ILS": {
+                "iso_4217_code": "ILS",
+                "iso_4217_numeric": 376,
+                "iso_4217_name": "Israeli new shekel",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "pt",
+        "name_en": {
+            "common": "Portugal",
+            "official": "Portuguese Republic"
+        },
+        "name_ar": {
+            "common": "البرتغال",
+            "official": "جمهورية البرتغال"
+          },
+        "iso_alpha2": "PT",
+        "iso_alpha3": "PRT",
+        "iso_num": "620",
+        "currency": {
+            "EUR": {
+                "iso_4217_code": "EUR",
+                "iso_4217_numeric": 978,
+                "iso_4217_name": "Euro",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "pw",
+        "name_en": {
+            "common": "Palau",
+            "official": "Republic of Palau"
+        },
+        "name_ar": {
+            "common": "بالاو",
+            "official": "جمهورية بالاو"
+          },
+        "iso_alpha2": "PW",
+        "iso_alpha3": "PLW",
+        "iso_num": "585",
+        "currency": {
+            "USD": {
+                "iso_4217_code": "USD",
+                "iso_4217_numeric": 840,
+                "iso_4217_name": "US Dollar",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "py",
+        "name_en": {
+            "common": "Paraguay",
+            "official": "Republic of Paraguay"
+        },
+        "name_ar": {
+            "common": "باراغواي",
+            "official": "جمهورية باراغواي"
+          },
+        "iso_alpha2": "PY",
+        "iso_alpha3": "PRY",
+        "iso_num": "600",
+        "currency": {
+            "PYG": {
+                "iso_4217_code": "PYG",
+                "iso_4217_numeric": 600,
+                "iso_4217_name": "Guarani",
+                "iso_4217_minor_unit": 0
+            }
+        }
+    },
+    {
+        "code": "qa",
+        "name_en": {
+            "common": "Qatar",
+            "official": "State of Qatar"
+        },
+        "name_ar": {
+            "common": "قطر",
+            "official": "دولة قطر"
+          },
+        "iso_alpha2": "QA",
+        "iso_alpha3": "QAT",
+        "iso_num": "634",
+        "currency": {
+            "QAR": {
+                "iso_4217_code": "QAR",
+                "iso_4217_numeric": 634,
+                "iso_4217_name": "Qatari Rial",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "re",
+        "name_en": {
+            "common": "Réunion",
+            "official": "Réunion Island"
+        },
+        "iso_alpha2": "RE",
+        "iso_alpha3": "REU",
+        "iso_num": "638",
+        "currency": {
+            "EUR": {
+                "iso_4217_code": "EUR",
+                "iso_4217_numeric": 978,
+                "iso_4217_name": "Euro",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "ro",
+        "name_en": {
+            "common": "Romania",
+            "official": "Romania"
+        },
+        "name_ar": {
+            "common": "رومانيا",
+            "official": "رومانيا"
+          },
+        "iso_alpha2": "RO",
+        "iso_alpha3": "ROU",
+        "iso_num": "642",
+        "currency": {
+            "RON": {
+                "iso_4217_code": "RON",
+                "iso_4217_numeric": 946,
+                "iso_4217_name": "New Romanian Leu",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "rs",
+        "name_en": {
+            "common": "Serbia",
+            "official": "Republic of Serbia"
+        },
+        "name_ar": {
+            "common": "صربيا",
+            "official": "جمهورية صربيا"
+          },
+        "iso_alpha2": "RS",
+        "iso_alpha3": "SRB",
+        "iso_num": "688",
+        "currency": {
+            "RSD": {
+                "iso_4217_code": "RSD",
+                "iso_4217_numeric": 941,
+                "iso_4217_name": "Serbian Dinar",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "ru",
+        "name_en": {
+            "common": "Russia",
+            "official": "Russian Federation"
+        },
+        "name_ar": {
+            "common": "الاتحاد الروسي",
+            "official": "الاتحاد الروسي"
+          },
+        "iso_alpha2": "RU",
+        "iso_alpha3": "RUS",
+        "iso_num": "643",
+        "currency": {
+            "RUB": {
+                "iso_4217_code": "RUB",
+                "iso_4217_numeric": 643,
+                "iso_4217_name": "Russian Ruble",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "rw",
+        "name_en": {
+            "common": "Rwanda",
+            "official": "Republic of Rwanda"
+        },
+        "name_ar": {
+            "common": "رواندا",
+            "official": "جمهورية رواندا"
+          },
+        "iso_alpha2": "RW",
+        "iso_alpha3": "RWA",
+        "iso_num": "646",
+        "currency": {
+            "RWF": {
+                "iso_4217_code": "RWF",
+                "iso_4217_numeric": 646,
+                "iso_4217_name": "Rwanda Franc",
+                "iso_4217_minor_unit": 0
+            }
+        }
+    },
+    {
+        "code": "sa",
+        "name_en": {
+            "common": "Saudi Arabia",
+            "official": "Kingdom of Saudi Arabia"
+        },
+        "name_ar": {
+            "common": "المملكة العربية السعودية",
+            "official": "المملكة العربية السعودية"
+          },
+        "iso_alpha2": "SA",
+        "iso_alpha3": "SAU",
+        "iso_num": "682",
+        "currency": {
+            "SAR": {
+                "iso_4217_code": "SAR",
+                "iso_4217_numeric": 682,
+                "iso_4217_name": "Saudi Riyal",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "sb",
+        "name_en": {
+            "common": "Solomon Islands",
+            "official": "Solomon Islands"
+        },
+        "name_ar": {
+            "common": "جزر سليمان",
+            "official": "جزر سليمان"
+          },
+        "iso_alpha2": "SB",
+        "iso_alpha3": "SLB",
+        "iso_num": "090",
+        "currency": {
+            "SBD": {
+                "iso_4217_code": "SBD",
+                "iso_4217_numeric": 90,
+                "iso_4217_name": "Solomon Islands Dollar",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "sc",
+        "name_en": {
+            "common": "Seychelles",
+            "official": "Republic of Seychelles"
+        },
+        "name_ar": {
+            "common": "سيشيل",
+            "official": "جمهورية سيشيل"
+          },
+        "iso_alpha2": "SC",
+        "iso_alpha3": "SYC",
+        "iso_num": "690",
+        "currency": {
+            "SCR": {
+                "iso_4217_code": "SCR",
+                "iso_4217_numeric": 690,
+                "iso_4217_name": "Seychelles Rupee",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "sd",
+        "name_en": {
+            "common": "Sudan",
+            "official": "Republic of the Sudan"
+        },
+        "name_ar": {
+            "common": "السودان",
+            "official": "جمهورية السودان"
+          },
+        "iso_alpha2": "SD",
+        "iso_alpha3": "SDN",
+        "iso_num": "729",
+        "currency": {
+            "SDG": {
+                "iso_4217_code": "SDG",
+                "iso_4217_numeric": 938,
+                "iso_4217_name": "Sudanese Pound",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "se",
+        "name_en": {
+            "common": "Sweden",
+            "official": "Kingdom of Sweden"
+        },
+        "name_ar": {
+            "common": "السويد",
+            "official": "مملكة السويد"
+          },
+        "iso_alpha2": "SE",
+        "iso_alpha3": "SWE",
+        "iso_num": "752",
+        "currency": {
+            "SEK": {
+                "iso_4217_code": "SEK",
+                "iso_4217_numeric": 752,
+                "iso_4217_name": "Swedish Krona",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "sg",
+        "name_en": {
+            "common": "Singapore",
+            "official": "Republic of Singapore"
+        },
+        "name_ar": {
+            "common": "سنغافورة",
+            "official": "جمهورية سنغافورة"
+          },
+        "iso_alpha2": "SG",
+        "iso_alpha3": "SGP",
+        "iso_num": "702",
+        "currency": {
+            "SGD": {
+                "iso_4217_code": "SGD",
+                "iso_4217_numeric": 702,
+                "iso_4217_name": "Singapore Dollar",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "sh",
+        "name_en": {
+            "common": "Saint Helena",
+            "official": "Saint Helena, Ascension and Tristan da Cunha"
+        },
+        "iso_alpha2": "SH",
+        "iso_alpha3": "SHN",
+        "iso_num": "654",
+        "currency": {
+            "SHP": {
+                "iso_4217_code": "SHP",
+                "iso_4217_numeric": 654,
+                "iso_4217_name": "Saint Helena pound",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "si",
+        "name_en": {
+            "common": "Slovenia",
+            "official": "Republic of Slovenia"
+        },
+        "name_ar": {
+            "common": "سلوفينيا",
+            "official": "جمهورية سلوفينيا"
+          },
+        "iso_alpha2": "SI",
+        "iso_alpha3": "SVN",
+        "iso_num": "705",
+        "currency": {
+            "EUR": {
+                "iso_4217_code": "EUR",
+                "iso_4217_numeric": 978,
+                "iso_4217_name": "Euro",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "sj",
+        "name_en": {
+            "common": "Svalbard and Jan Mayen",
+            "official": "Svalbard og Jan Mayen"
+        },
+        "iso_alpha2": "SJ",
+        "iso_alpha3": "SJM",
+        "iso_num": "744",
+        "currency": {
+            "NOK": {
+                "iso_4217_code": "NOK",
+                "iso_4217_numeric": 578,
+                "iso_4217_name": "Norwegian krone",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "sk",
+        "name_en": {
+            "common": "Slovakia",
+            "official": "Slovak Republic"
+        },
+        "name_ar": {
+            "common": "سلوفاكيا",
+            "official": "الجمهورية السلوفاكية"
+          },
+        "iso_alpha2": "SK",
+        "iso_alpha3": "SVK",
+        "iso_num": "703",
+        "currency": {
+            "EUR": {
+                "iso_4217_code": "EUR",
+                "iso_4217_numeric": 978,
+                "iso_4217_name": "Euro",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "sl",
+        "name_en": {
+            "common": "Sierra Leone",
+            "official": "Republic of Sierra Leone"
+        },
+        "name_ar": {
+            "common": "سيراليون",
+            "official": "جمهورية سيراليون"
+          },
+        "iso_alpha2": "SL",
+        "iso_alpha3": "SLE",
+        "iso_num": "694",
+        "currency": {
+            "SLL": {
+                "iso_4217_code": "SLL",
+                "iso_4217_numeric": 694,
+                "iso_4217_name": "Leone",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "sm",
+        "name_en": {
+            "common": "San Marino",
+            "official": "Most Serene Republic of San Marino"
+        },
+        "name_ar": {
+            "common": "سان مارينو",
+            "official": "جمهورية سان مارينو"
+          },
+        "iso_alpha2": "SM",
+        "iso_alpha3": "SMR",
+        "iso_num": "674",
+        "currency": {
+            "EUR": {
+                "iso_4217_code": "EUR",
+                "iso_4217_numeric": 978,
+                "iso_4217_name": "Euro",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "sn",
+        "name_en": {
+            "common": "Senegal",
+            "official": "Republic of Senegal"
+        },
+        "name_ar": {
+            "common": "السنغال",
+            "official": "جمهورية السنغال"
+          },
+        "iso_alpha2": "SN",
+        "iso_alpha3": "SEN",
+        "iso_num": "686",
+        "currency": {
+            "XOF": {
+                "iso_4217_code": "XOF",
+                "iso_4217_numeric": 952,
+                "iso_4217_name": "CFA Franc BCEAO",
+                "iso_4217_minor_unit": 0
+            }
+        }
+    },
+    {
+        "code": "so",
+        "name_en": {
+            "common": "Somalia",
+            "official": "Federal Republic of Somalia"
+        },
+        "name_ar": {
+            "common": "الصومال",
+            "official": "جمهورية الصومال الاتحادية"
+          },
+        "iso_alpha2": "SO",
+        "iso_alpha3": "SOM",
+        "iso_num": "706",
+        "currency": {
+            "SOS": {
+                "iso_4217_code": "SOS",
+                "iso_4217_numeric": 706,
+                "iso_4217_name": "Somali Shilling",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "sr",
+        "name_en": {
+            "common": "Suriname",
+            "official": "Republic of Suriname"
+        },
+        "name_ar": {
+            "common": "سورينام",
+            "official": "جمهورية سورينام"
+          },
+        "iso_alpha2": "SR",
+        "iso_alpha3": "SUR",
+        "iso_num": "740",
+        "currency": {
+            "SRD": {
+                "iso_4217_code": "SRD",
+                "iso_4217_numeric": 968,
+                "iso_4217_name": "Surinam Dollar",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "ss",
+        "name_en": {
+            "common": "South Sudan",
+            "official": "Republic of South Sudan"
+        },
+        "name_ar": {
+            "common": "جنوب السودان",
+            "official": "جمهورية جنوب السودان"
+          },
+
+        "iso_alpha2": "SS",
+        "iso_alpha3": "SSD",
+        "iso_num": "728",
+        "currency": {
+            "SSP": {
+                "iso_4217_code": "SSP",
+                "iso_4217_numeric": 728,
+                "iso_4217_name": "South Sudanese Pound",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "st",
+        "name_en": {
+            "common": "São Tomé and Príncipe",
+            "official": "Democratic Republic of São Tomé and Príncipe"
+        },
+        "iso_alpha2": "ST",
+        "iso_alpha3": "STP",
+        "iso_num": "678",
+        "currency": {
+            "STD": {
+                "iso_4217_code": "STD",
+                "iso_4217_numeric": 678,
+                "iso_4217_name": "Dobra",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "sv",
+        "name_en": {
+            "common": "El Salvador",
+            "official": "Republic of El Salvador"
+        },
+        "name_ar": {
+            "common": "السلفادور",
+            "official": "جمهورية السلفادور"
+          },
+        "iso_alpha2": "SV",
+        "iso_alpha3": "SLV",
+        "iso_num": "222",
+        "currency": {
+            "SVC": {
+                "iso_4217_code": "SVC",
+                "iso_4217_numeric": 222,
+                "iso_4217_name": "Salvadoran colón",
+                "iso_4217_minor_unit": 2
+            },
+            "USD": {
+                "iso_4217_code": "USD",
+                "iso_4217_numeric": 840,
+                "iso_4217_name": "US Dollar",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "sx",
+        "name_en": {
+            "common": "Sint Maarten",
+            "official": "Sint Maarten"
+        },
+        "iso_alpha2": "SX",
+        "iso_alpha3": "SXM",
+        "iso_num": "534",
+        "currency": {
+            "ANG": {
+                "iso_4217_code": "ANG",
+                "iso_4217_numeric": 532,
+                "iso_4217_name": "Netherlands Antillean Guilder",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "sy",
+        "name_en": {
+            "common": "Syria",
+            "official": "Syrian Arab Republic"
+        },
+        "name_ar": {
+            "common": "الجمهورية العربية السورية",
+            "official": "الجمهورية العربية السورية"
+          },
+        "iso_alpha2": "SY",
+        "iso_alpha3": "SYR",
+        "iso_num": "760",
+        "currency": {
+            "SYP": {
+                "iso_4217_code": "SYP",
+                "iso_4217_numeric": 760,
+                "iso_4217_name": "Syrian Pound",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "sz",
+        "name_en": {
+            "common": "Swaziland",
+            "official": "Kingdom of Swaziland"
+        },
+        "iso_alpha2": "SZ",
+        "iso_alpha3": "SWZ",
+        "iso_num": "748",
+        "currency": {
+            "SZL": {
+                "iso_4217_code": "SZL",
+                "iso_4217_numeric": 748,
+                "iso_4217_name": "Lilangeni",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "tc",
+        "name_en": {
+            "common": "Turks and Caicos Islands",
+            "official": "Turks and Caicos Islands"
+        },
+        "iso_alpha2": "TC",
+        "iso_alpha3": "TCA",
+        "iso_num": "796",
+        "currency": {
+            "USD": {
+                "iso_4217_code": "USD",
+                "iso_4217_numeric": 840,
+                "iso_4217_name": "US Dollar",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "td",
+        "name_en": {
+            "common": "Chad",
+            "official": "Republic of Chad"
+        },
+        "name_ar": {
+            "common": "تشاد",
+            "official": "جمهورية تشاد"
+          },
+        "iso_alpha2": "TD",
+        "iso_alpha3": "TCD",
+        "iso_num": "148",
+        "currency": {
+            "XAF": {
+                "iso_4217_code": "XAF",
+                "iso_4217_numeric": 950,
+                "iso_4217_name": "CFA Franc BEAC",
+                "iso_4217_minor_unit": 0
+            }
+        }
+    },
+    {
+        "code": "tf",
+        "name_en": {
+            "common": "French Southern and Antarctic Lands",
+            "official": "Territory of the French Southern and Antarctic Lands"
+        },
+        "iso_alpha2": "TF",
+        "iso_alpha3": "ATF",
+        "iso_num": "260",
+        "currency": {
+            "EUR": {
+                "iso_4217_code": "EUR",
+                "iso_4217_numeric": 978,
+                "iso_4217_name": "Euro",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "tg",
+        "name_en": {
+            "common": "Togo",
+            "official": "Togolese Republic"
+        },
+        "name_ar": {
+            "common": "توغو",
+            "official": "جمهورية توغو"
+          },
+        "iso_alpha2": "TG",
+        "iso_alpha3": "TGO",
+        "iso_num": "768",
+        "currency": {
+            "XOF": {
+                "iso_4217_code": "XOF",
+                "iso_4217_numeric": 952,
+                "iso_4217_name": "CFA Franc BCEAO",
+                "iso_4217_minor_unit": 0
+            }
+        }
+    },
+    {
+        "code": "th",
+        "name_en": {
+            "common": "Thailand",
+            "official": "Kingdom of Thailand"
+        },
+        "name_ar": {
+            "common": "تايلند",
+            "official": "مملكة تايلند"
+          },
+        "iso_alpha2": "TH",
+        "iso_alpha3": "THA",
+        "iso_num": "764",
+        "currency": {
+            "THB": {
+                "iso_4217_code": "THB",
+                "iso_4217_numeric": 764,
+                "iso_4217_name": "Baht",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "tj",
+        "name_en": {
+            "common": "Tajikistan",
+            "official": "Republic of Tajikistan"
+        },
+        "name_ar": {
+            "common": "طاجيكستان",
+            "official": "جمهورية طاجيكستان"
+          },
+        "iso_alpha2": "TJ",
+        "iso_alpha3": "TJK",
+        "iso_num": "762",
+        "currency": {
+            "TJS": {
+                "iso_4217_code": "TJS",
+                "iso_4217_numeric": 972,
+                "iso_4217_name": "Somoni",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "tk",
+        "name_en": {
+            "common": "Tokelau",
+            "official": "Tokelau"
+        },
+        "iso_alpha2": "TK",
+        "iso_alpha3": "TKL",
+        "iso_num": "772",
+        "currency": {
+            "NZD": {
+                "iso_4217_code": "NZD",
+                "iso_4217_numeric": 554,
+                "iso_4217_name": "New Zealand Dollar",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "tl",
+        "name_en": {
+            "common": "Timor-Leste",
+            "official": "Democratic Republic of Timor-Leste"
+        },
+        "name_ar": {
+            "common": "تيمور- ليشتي",
+            "official": "جمهورية تيمور - ليشتي الديمقراطية"
+          },
+        "iso_alpha2": "TL",
+        "iso_alpha3": "TLS",
+        "iso_num": "626",
+        "currency": {
+            "USD": {
+                "iso_4217_code": "USD",
+                "iso_4217_numeric": 840,
+                "iso_4217_name": "US Dollar",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "tm",
+        "name_en": {
+            "common": "Turkmenistan",
+            "official": "Turkmenistan"
+        },
+        "name_ar": {
+            "common": "تركمانستان",
+            "official": "تركمانستان"
+          },
+        "iso_alpha2": "TM",
+        "iso_alpha3": "TKM",
+        "iso_num": "795",
+        "currency": {
+            "TMT": {
+                "iso_4217_code": "TMT",
+                "iso_4217_numeric": 934,
+                "iso_4217_name": "Turkmenistan New Manat",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "tn",
+        "name_en": {
+            "common": "Tunisia",
+            "official": "Tunisian Republic"
+        },
+        "name_ar": {
+            "common": "تونس",
+            "official": "الجمهورية التونسية"
+          },
+        "iso_alpha2": "TN",
+        "iso_alpha3": "TUN",
+        "iso_num": "788",
+        "currency": {
+            "TND": {
+                "iso_4217_code": "TND",
+                "iso_4217_numeric": 788,
+                "iso_4217_name": "Tunisian Dinar",
+                "iso_4217_minor_unit": 3
+            }
+        }
+    },
+    {
+        "code": "to",
+        "name_en": {
+            "common": "Tonga",
+            "official": "Kingdom of Tonga"
+        },
+        "name_ar": {
+            "common": "تونغا",
+            "official": "مملكة تونغا"
+          },
+        "iso_alpha2": "TO",
+        "iso_alpha3": "TON",
+        "iso_num": "776",
+        "currency": {
+            "TOP": {
+                "iso_4217_code": "TOP",
+                "iso_4217_numeric": 776,
+                "iso_4217_name": "Pa’anga",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "tr",
+        "name_en": {
+            "common": "Turkey",
+            "official": "Republic of Turkey"
+        },
+        "name_ar": {
+            "common": "تركيا",
+            "official": "جمهورية تركيا"
+          },
+        "iso_alpha2": "TR",
+        "iso_alpha3": "TUR",
+        "iso_num": "792",
+        "currency": {
+            "TRY": {
+                "iso_4217_code": "TRY",
+                "iso_4217_numeric": 949,
+                "iso_4217_name": "Turkish Lira",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "tt",
+        "name_en": {
+            "common": "Trinidad and Tobago",
+            "official": "Republic of Trinidad and Tobago"
+        },
+        "name_ar": {
+            "common": "ترينيداد وتوباغو",
+            "official": "جمهورية ترينيداد وتوباغو"
+          },
+        "iso_alpha2": "TT",
+        "iso_alpha3": "TTO",
+        "iso_num": "780",
+        "currency": {
+            "TTD": {
+                "iso_4217_code": "TTD",
+                "iso_4217_numeric": 780,
+                "iso_4217_name": "Trinidad and Tobago Dollar",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "tv",
+        "name_en": {
+            "common": "Tuvalu",
+            "official": "Tuvalu"
+        },
+        "name_ar": {
+            "common": "توفالو",
+            "official": "توفالو"
+          },
+        "iso_alpha2": "TV",
+        "iso_alpha3": "TUV",
+        "iso_num": "798",
+        "currency": {
+            "AUD": {
+                "iso_4217_code": "AUD",
+                "iso_4217_numeric": 36,
+                "iso_4217_name": "Australian Dollar",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "tw",
+        "name_en": {
+            "common": "Taiwan",
+            "official": "Republic of China (Taiwan)"
+        },
+        "iso_alpha2": "TW",
+        "iso_alpha3": "TWN",
+        "iso_num": "158",
+        "currency": {
+            "TWD": {
+                "iso_4217_code": "TWD",
+                "iso_4217_numeric": 901,
+                "iso_4217_name": "New Taiwan dollar",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "tz",
+        "name_en": {
+            "common": "Tanzania",
+            "official": "United Republic of Tanzania"
+        },
+        "name_ar": {
+            "common": "جمهورية تنزانيا المتحدة",
+            "official": "جمهورية تنزانيا المتحدة"
+          },
+        "iso_alpha2": "TZ",
+        "iso_alpha3": "TZA",
+        "iso_num": "834",
+        "currency": {
+            "TZS": {
+                "iso_4217_code": "TZS",
+                "iso_4217_numeric": 834,
+                "iso_4217_name": "Tanzanian shilling",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "ua",
+        "name_en": {
+            "common": "Ukraine",
+            "official": "Ukraine"
+        },
+        "name_ar": {
+            "common": "أوكرانيا",
+            "official": "أوكرانيا"
+          },
+        "iso_alpha2": "UA",
+        "iso_alpha3": "UKR",
+        "iso_num": "804",
+        "currency": {
+            "UAH": {
+                "iso_4217_code": "UAH",
+                "iso_4217_numeric": 980,
+                "iso_4217_name": "Hryvnia",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "ug",
+        "name_en": {
+            "common": "Uganda",
+            "official": "Republic of Uganda"
+        },
+        "name_ar": {
+            "common": "أوغندا",
+            "official": "جمهورية أوغندا"
+          },
+        "iso_alpha2": "UG",
+        "iso_alpha3": "UGA",
+        "iso_num": "800",
+        "currency": {
+            "UGX": {
+                "iso_4217_code": "UGX",
+                "iso_4217_numeric": 800,
+                "iso_4217_name": "Uganda Shilling",
+                "iso_4217_minor_unit": 0
+            }
+        }
+    },
+    {
+        "code": "um",
+        "name_en": {
+            "common": "United States Minor Outlying Islands",
+            "official": "United States Minor Outlying Islands"
+        },
+        "iso_alpha2": "UM",
+        "iso_alpha3": "UMI",
+        "iso_num": "581",
+        "currency": {
+            "USD": {
+                "iso_4217_code": "USD",
+                "iso_4217_numeric": 840,
+                "iso_4217_name": "US Dollar",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "us",
+        "name_en": {
+            "common": "United States",
+            "official": "United States of America"
+        },
+        "name_ar": {
+            "common": "الولايات المتحدة الأمريكية",
+            "official": "الولايات المتحدة الأمريكية"
+          },
+        "iso_alpha2": "US",
+        "iso_alpha3": "USA",
+        "iso_num": "840",
+        "currency": {
+            "USD": {
+                "iso_4217_code": "USD",
+                "iso_4217_numeric": 840,
+                "iso_4217_name": "US Dollar",
+                "iso_4217_minor_unit": 2
+            },
+            "USN": {
+                "iso_4217_code": "USN",
+                "iso_4217_numeric": 997,
+                "iso_4217_name": "United States dollar (next day) (funds code)",
+                "iso_4217_minor_unit": 2
+            },
+            "USS": {
+                "iso_4217_code": "USS",
+                "iso_4217_numeric": 998,
+                "iso_4217_name": "United States dollar (same day) (funds code)",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "uy",
+        "name_en": {
+            "common": "Uruguay",
+            "official": "Oriental Republic of Uruguay"
+        },
+        "name_ar": {
+            "common": "أوروغواي",
+            "official": "جمهورية أوروغواي الشرقية"
+          },
+        "iso_alpha2": "UY",
+        "iso_alpha3": "URY",
+        "iso_num": "858",
+        "currency": {
+            "UYI": {
+                "iso_4217_code": "UYI",
+                "iso_4217_numeric": 940,
+                "iso_4217_name": "Uruguay Peso en Unidades Indexadas (URUIURUI) (funds code)",
+                "iso_4217_minor_unit": 0
+            },
+            "UYU": {
+                "iso_4217_code": "UYU",
+                "iso_4217_numeric": 858,
+                "iso_4217_name": "Peso Uruguayo",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "uz",
+        "name_en": {
+            "common": "Uzbekistan",
+            "official": "Republic of Uzbekistan"
+        },
+        "name_ar": {
+            "common": "أوزبكستان",
+            "official": "جمهورية أوزبكستان"
+          },
+        "iso_alpha2": "UZ",
+        "iso_alpha3": "UZB",
+        "iso_num": "860",
+        "currency": {
+            "UZS": {
+                "iso_4217_code": "UZS",
+                "iso_4217_numeric": 860,
+                "iso_4217_name": "Uzbekistan Sum",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "va",
+        "name_en": {
+            "common": "Vatican City",
+            "official": "Vatican City State"
+        },
+        "iso_alpha2": "VA",
+        "iso_alpha3": "VAT",
+        "iso_num": "336",
+        "currency": {
+            "EUR": {
+                "iso_4217_code": "EUR",
+                "iso_4217_numeric": 978,
+                "iso_4217_name": "Euro",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+
+    {
+        "code": "vg",
+        "name_en": {
+            "common": "British Virgin Islands",
+            "official": "Virgin Islands"
+        },
+        "iso_alpha2": "VG",
+        "iso_alpha3": "VGB",
+        "iso_num": "092",
+        "currency": {
+            "USD": {
+                "iso_4217_code": "USD",
+                "iso_4217_numeric": 840,
+                "iso_4217_name": "US Dollar",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "vi",
+        "name_en": {
+            "common": "United States Virgin Islands",
+            "official": "Virgin Islands of the United States"
+        },
+        "iso_alpha2": "VI",
+        "iso_alpha3": "VIR",
+        "iso_num": "850",
+        "currency": {
+            "USD": {
+                "iso_4217_code": "USD",
+                "iso_4217_numeric": 840,
+                "iso_4217_name": "US Dollar",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "vn",
+        "name_en": {
+            "common": "Vietnam",
+            "official": "Socialist Republic of Vietnam"
+        },
+        "name_ar": {
+            "common": "فييت نام",
+            "official": "جمهورية فييت نام الاشتراكية"
+          },
+        "iso_alpha2": "VN",
+        "iso_alpha3": "VNM",
+        "iso_num": "704",
+        "currency": {
+            "VND": {
+                "iso_4217_code": "VND",
+                "iso_4217_numeric": 704,
+                "iso_4217_name": "Dong",
+                "iso_4217_minor_unit": 0
+            }
+        }
+    },
+    {
+        "code": "vu",
+        "name_en": {
+            "common": "Vanuatu",
+            "official": "Republic of Vanuatu"
+        },
+        "name_ar": {
+            "common": "فانواتو",
+            "official": "جمهورية فانواتو"
+          },
+        "iso_alpha2": "VU",
+        "iso_alpha3": "VUT",
+        "iso_num": "548",
+        "currency": {
+            "VUV": {
+                "iso_4217_code": "VUV",
+                "iso_4217_numeric": 548,
+                "iso_4217_name": "Vatu",
+                "iso_4217_minor_unit": 0
+            }
+        }
+    },
+    {
+        "code": "wf",
+        "name_en": {
+            "common": "Wallis and Futuna",
+            "official": "Territory of the Wallis and Futuna Islands"
+        },
+        "iso_alpha2": "WF",
+        "iso_alpha3": "WLF",
+        "iso_num": "876",
+        "currency": {
+            "XPF": {
+                "iso_4217_code": "XPF",
+                "iso_4217_numeric": 953,
+                "iso_4217_name": "CFP franc (franc Pacifique)",
+                "iso_4217_minor_unit": 0
+            }
+        }
+    },
+    {
+        "code": "ws",
+        "name_en": {
+            "common": "Samoa",
+            "official": "Independent State of Samoa"
+        },
+        "iso_alpha2": "WS",
+        "iso_alpha3": "WSM",
+        "iso_num": "882",
+        "currency": {
+            "WST": {
+                "iso_4217_code": "WST",
+                "iso_4217_numeric": 882,
+                "iso_4217_name": "Tala",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "xk",
+        "name_en": {
+            "common": "Kosovo",
+            "official": "Republic of Kosovo"
+        },
+        "iso_alpha2": "XK",
+        "iso_alpha3": "UNK",
+        "iso_num": "",
+        "currency": {
+            "EUR": {
+                "iso_4217_code": "EUR",
+                "iso_4217_numeric": 978,
+                "iso_4217_name": "Euro",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "ye",
+        "name_en": {
+            "common": "Yemen",
+            "official": "Republic of Yemen"
+        },
+        "name_ar": {
+            "common": "اليمن",
+            "official": "الجمهورية اليمنية"
+          },
+        "iso_alpha2": "YE",
+        "iso_alpha3": "YEM",
+        "iso_num": "887",
+        "currency": {
+            "YER": {
+                "iso_4217_code": "YER",
+                "iso_4217_numeric": 886,
+                "iso_4217_name": "Yemeni Rial",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "yt",
+        "name_en": {
+            "common": "Mayotte",
+            "official": "Department of Mayotte"
+        },
+        "iso_alpha2": "YT",
+        "iso_alpha3": "MYT",
+        "iso_num": "175",
+        "currency": {
+            "EUR": {
+                "iso_4217_code": "EUR",
+                "iso_4217_numeric": 978,
+                "iso_4217_name": "Euro",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "za",
+        "name_en": {
+            "common": "South Africa",
+            "official": "Republic of South Africa"
+        },
+        "name_ar": {
+            "common": "جنوب أفريقيا",
+            "official": "جمهورية جنوب أفريقيا"
+          },
+        "iso_alpha2": "ZA",
+        "iso_alpha3": "ZAF",
+        "iso_num": "710",
+        "currency": {
+            "ZAR": {
+                "iso_4217_code": "ZAR",
+                "iso_4217_numeric": 710,
+                "iso_4217_name": "Rand",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "zm",
+        "name_en": {
+            "common": "Zambia",
+            "official": "Republic of Zambia"
+        },
+        "name_ar": {
+            "common": "زامبيا",
+            "official": "جمهورية زامبيا"
+          },
+        "iso_alpha2": "ZM",
+        "iso_alpha3": "ZMB",
+        "iso_num": "894",
+        "currency": {
+            "ZMW": {
+                "iso_4217_code": "ZMW",
+                "iso_4217_numeric": 967,
+                "iso_4217_name": "Zambian Kwacha",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    },
+    {
+        "code": "zw",
+        "name_en": {
+            "common": "Zimbabwe",
+            "official": "Republic of Zimbabwe"
+        },
+        "name_ar": {
+            "common": "زمبابوي",
+            "official": "جمهورية زمبابوي"
+          },
+        "iso_alpha2": "ZW",
+        "iso_alpha3": "ZWE",
+        "iso_num": "716",
+        "currency": {
+            "ZWL": {
+                "iso_4217_code": "ZWL",
+                "iso_4217_numeric": 932,
+                "iso_4217_name": "Zimbabwe Dollar",
+                "iso_4217_minor_unit": 2
+            }
+        }
+    }
+]
