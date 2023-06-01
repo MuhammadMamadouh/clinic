@@ -20,7 +20,9 @@ use Spatie\MediaLibrary\InteractsWithMedia;
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 use Spatie\MediaLibrary\MediaCollections\Models\Media;
 use Spatie\Permission\Traits\HasRoles;
-
+use Laratrust\Traits\LaratrustUserTrait;
+use Laratrust\Traits\HasRolesAndPermissions;
+use Laratrust\Contracts\LaratrustUser;
 /**
  * App\Models\User
  *
@@ -87,9 +89,10 @@ use Spatie\Permission\Traits\HasRoles;
  *
  * @method static Builder|User whereRegionCode($value)
  */
-class User extends Authenticatable implements HasMedia
+class User extends Authenticatable implements HasMedia, LaratrustUser
 {
-    use HasFactory, Notifiable, InteractsWithMedia, HasRoles, Impersonate;
+    use LaratrustUserTrait;
+    use HasFactory, Notifiable, InteractsWithMedia, HasRoles, Impersonate, HasRolesAndPermissions;
 
     protected $table = 'users';
 

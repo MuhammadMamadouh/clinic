@@ -5,6 +5,7 @@ namespace App\Http\Middleware;
 use Closure;
 use Illuminate\Http\Request;
 
+
 class checkImpersonateUser
 {
     /**
@@ -16,7 +17,7 @@ class checkImpersonateUser
      */
     public function handle(Request $request, Closure $next)
     {
-        if (\Request::route()->getName() == 'impersonate.leave') {
+        if ($request->route()->getName() == 'impersonate.leave') {
             getLogInUser()->leaveImpersonation();
 
             return redirect()->route('admin.dashboard');

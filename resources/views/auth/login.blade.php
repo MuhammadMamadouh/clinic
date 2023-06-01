@@ -28,7 +28,7 @@
                     <div class="d-flex justify-content-between">
                         <label for="password" class="form-label">{{ __('messages.patient.password') .':' }}<span
                                     class="required"></span></label>
-                        @if (Route::has('password.request'))
+                        @if (Illuminate\Support\Facades\Route::has('password.request'))
                             <a href="{{ route('password.request') }}" class="link-info fs-6 text-decoration-none">
                                 {{ __('messages.common.forgot_your_password').'?' }}
                             </a>
